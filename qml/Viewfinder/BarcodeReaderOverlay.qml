@@ -637,19 +637,19 @@ Item {
 
             var ssid = "";
             var password = "";
-            var networkType = "";
+            var securityType = "";
 
             for (const part of parts) {
                 if (part.startsWith("S:")) {
                     ssid = part.slice(2);
                 } else if (part.startsWith("T:")) {
-                    networkType = part.slice(2);
+                    securityType = part.slice(2);
                 } else if (part.startsWith("P:")) {
                     password = part.slice(2);
                 }
             }
 
-            return { ssid, password, networkType };
+            return { ssid, password, securityType };
         }
 
         function displayText(tagText) {
@@ -737,9 +737,9 @@ Item {
                 onClicked: {
                     var wifiData = tagDetailsOverlay.parseWifiData(viewFinderView.recentlyScannedTag)
 
-                    Qt.openUrlExternally("settings://system/wifi?ssid=%1&networkType=%2&password=%3"
+                    Qt.openUrlExternally("settings://system/wifi?ssid=%1&securityType=%2&password=%3"
                         .arg(wifiData.ssid)
-                        .arg(wifiData.networkType)
+                        .arg(wifiData.securityType)
                         .arg(wifiData.password))
                     tagDetailsOverlay.open = false
                 }
