@@ -8,26 +8,29 @@ msgstr ""
 "Project-Id-Version: lomiri-camera-app-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-11-10 12:51+0000\n"
+"Last-Translator: Wenwen Luo <wenwenluo130@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"lomiri/lomiri-camera-app/zh_LATN@pinyin/>\n"
 "Language: zh_LATN@pinyin\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: lomiri-camera-app.desktop.in:4 lomiri-camera-app.desktop.in:6
 #: Information.qml:106
 msgid "Camera"
-msgstr ""
+msgstr "相机"
 
 #: lomiri-camera-app.desktop.in:5
 msgid "Camera application"
-msgstr ""
+msgstr "相机应用"
 
 #: lomiri-camera-app.desktop.in:7
 msgid "Photos;Videos;Capture;Shoot;Snapshot;Record"
-msgstr ""
+msgstr "照片；视频；拍摄；拍照；截图；录制"
 
 #: lomiri-camera-app.desktop.in:10
 msgid "lomiri-camera-app"
