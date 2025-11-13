@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lomiri-camera-app-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2025-11-10 12:51+0000\n"
+"PO-Revision-Date: 2025-11-17 14:51+0000\n"
 "Last-Translator: Wenwen Luo <wenwenluo130@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "lomiri/lomiri-camera-app/zh_LATN@pinyin/>\n"
@@ -34,20 +34,20 @@ msgstr "照片；视频；拍摄；拍照；截图；录制"
 
 #: lomiri-camera-app.desktop.in:10
 msgid "lomiri-camera-app"
-msgstr ""
+msgstr "lomiri相机应用"
 
 #: lomiri-barcode-reader-app.desktop.in:4
 #: lomiri-barcode-reader-app.desktop.in:6
 msgid "Barcode Reader"
-msgstr ""
+msgstr "条形码扫描器"
 
 #: lomiri-barcode-reader-app.desktop.in:5
 msgid "Barcode Reader application"
-msgstr ""
+msgstr "条形码扫描器"
 
 #: lomiri-barcode-reader-app.desktop.in:7
 msgid "QR;Code;Reader"
-msgstr ""
+msgstr "二维码；编码；阅读器"
 
 #: lomiri-barcode-reader-app.desktop.in:10
 msgid "lomiri-barcode-reader-app"
