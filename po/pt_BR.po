@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2023-10-18 05:51+0000\n"
-"Last-Translator: Império Linux <kevendoria86@gmail.com>\n"
+"PO-Revision-Date: 2025-12-25 03:38+0000\n"
+"Last-Translator: Vini Moraes <viniciussmoraes40@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "lomiri/lomiri-camera-app/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.15.1\n"
 "X-Launchpad-Export-Date: 2016-12-01 04:53+0000\n"
 
 #: lomiri-camera-app.desktop.in:4 lomiri-camera-app.desktop.in:6
@@ -35,26 +35,24 @@ msgstr "Fotos;Vídeos;Captura;Fotografar;Instantâneo;Gravar"
 
 #: lomiri-camera-app.desktop.in:10
 msgid "lomiri-camera-app"
-msgstr ""
+msgstr "lomiri-camera-app"
 
 #: lomiri-barcode-reader-app.desktop.in:4
 #: lomiri-barcode-reader-app.desktop.in:6
 msgid "Barcode Reader"
-msgstr ""
+msgstr "Leitor de Código de Barras"
 
 #: lomiri-barcode-reader-app.desktop.in:5
-#, fuzzy
-#| msgid "Camera application"
 msgid "Barcode Reader application"
-msgstr "Aplicativo da câmera"
+msgstr "Aplicativo do Leitor de Código de Barras"
 
 #: lomiri-barcode-reader-app.desktop.in:7
 msgid "QR;Code;Reader"
-msgstr ""
+msgstr "QR;Code;Leitor"
 
 #: lomiri-barcode-reader-app.desktop.in:10
 msgid "lomiri-barcode-reader-app"
-msgstr ""
+msgstr "lomiri-barcode-reader-app"
 
 #: AdvancedOptions.qml:23 PhotogridView.qml:69 SlideshowView.qml:77
 msgid "Settings"
@@ -62,7 +60,7 @@ msgstr "Configurações"
 
 #: AdvancedOptions.qml:27
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: AdvancedOptions.qml:35 Information.qml:20 PhotogridView.qml:78
 #: SlideshowView.qml:86
@@ -199,11 +197,11 @@ msgstr "Opacidade"
 
 #: AdvancedOptions.qml:346
 msgid "Blurred Overlay"
-msgstr ""
+msgstr "Sobreposição Borrada"
 
 #: AdvancedOptions.qml:367
 msgid "Only Blur Preview overlay"
-msgstr ""
+msgstr "Somente sobreposição de Pré-visualização Borrada"
 
 #: DeleteDialog.qml:24
 msgid "Delete media?"
@@ -265,38 +263,34 @@ msgid "Height : %1"
 msgstr "Altura : %1"
 
 #: MediaInfoPopover.qml:16
-#, fuzzy, qt-format
-#| msgid "Name : %1"
+#, qt-format
 msgid "Date : %1"
-msgstr "Nome: %1"
+msgstr "Data: %1"
 
 #: MediaInfoPopover.qml:17
-#, fuzzy, qt-format
-#| msgid "Name : %1"
+#, qt-format
 msgid "Camera Model : %1"
-msgstr "Nome: %1"
+msgstr "Modelo de Câmera: %1"
 
 #: MediaInfoPopover.qml:18
-#, fuzzy, qt-format
-#| msgid "Height : %1"
+#, qt-format
 msgid "Copyright : %1"
-msgstr "Altura : %1"
+msgstr "Copyright: %1"
 
 #: MediaInfoPopover.qml:19
 #, qt-format
 msgid "Exposure Time : %1"
-msgstr ""
+msgstr "Tempo de Exposição: %1"
 
 #: MediaInfoPopover.qml:20
-#, fuzzy, qt-format
-#| msgid "Name : %1"
+#, qt-format
 msgid "F. Number : %1"
-msgstr "Nome: %1"
+msgstr "Número de telefone: %1"
 
 #: MediaInfoPopover.qml:21
 #, qt-format
 msgid "Sub-File type : %1"
-msgstr ""
+msgstr "Tipo de Subarquivo: %1"
 
 #: MediaInfoPopover.qml:43
 msgid "Media Information"
@@ -313,18 +307,17 @@ msgid "Type : %1"
 msgstr "Tipo : %1"
 
 #: MediaInfoPopover.qml:83
-#, fuzzy, qt-format
-#| msgid "Width : %1"
+#, qt-format
 msgid "With Flash : %1"
-msgstr "Largura : %1"
+msgstr "Com Flash: %1"
 
 #: MediaInfoPopover.qml:83
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: MediaInfoPopover.qml:83
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: NoSpaceHint.qml:33
 msgid "No space left on device, free up space to continue."
