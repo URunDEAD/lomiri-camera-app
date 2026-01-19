@@ -19,6 +19,8 @@
 
 #include <QtCore/QObject>
 #include <QtCore/QJsonObject>
+#include <exiv2/exiv2.hpp>
+
 
 class FileOperations : public QObject
 {
@@ -28,6 +30,10 @@ public:
     explicit FileOperations(QObject *parent = 0);
     Q_INVOKABLE bool remove(const QString & fileName) const;
     Q_INVOKABLE QJsonObject getEXIFData(const QString & path) const;
+    Q_INVOKABLE bool setEXIFData(const QString & path, double latitude, double longitude) const;
+private:
+    static Exiv2::URationalValue toDMS(double decimal);
+
 };
 
 #endif // FILEOPERATIONS_H

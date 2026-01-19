@@ -42,10 +42,13 @@ Dialog {
               { "key": "Exif.Image.Model" , "title" :i18n.tr( "Camera Model:"), "valueFunction": null},
               { "key": "Exif.Image.Copyright" , "title" :i18n.tr( "Copyright:"), "valueFunction": null},
               { "key": "Exif.Image.ExposureTime" , "title" :i18n.tr( "Exposure Time:"), "valueFunction": root.timeFormat},
-              { "key": "Exif.Image.FNumber" , "title" :i18n.tr( "F. Number:"), "valueFunction": null},
-              { "key": "Exif.Image.NewSubfileType" , "title" :i18n.tr( "Sub-File type:"), "valueFunction": null},
-              { "key": "Exif.Photo.Flash" , "title" :i18n.tr( "With Flash:"), "valueFunction": root.parseFlashData},
-            ];
+	      { "key": "Exif.Image.FNumber" , "title" :i18n.tr( "F. Number:"), "valueFunction": null},
+	      { "key": "Exif.Image.NewSubfileType" , "title" :i18n.tr( "Sub-File type:"), "valueFunction": null},
+	      { "key": "Exif.Photo.Flash" , "title" :i18n.tr( "With Flash:"), "valueFunction": root.parseFlashData},
+	      { "key": "Exif.GPSInfo.GPSLatitude" , "title" :i18n.tr( "GPS Latitude:"), "valueFunction": root.parseLatitudeData},
+	      { "key": "Exif.GPSInfo.GPSLongitude" , "title" :i18n.tr( "GPS Longitude:"), "valueFunction": root.parseLongitudeData},
+	      { "key": "Exif.GPSInfo.GPSAltitude" , "title" :i18n.tr( "GPS Altitude:"), "valueFunction": root.parseAltitudeData},
+	    ];
 
     FileOperations {
         id: fileOperations
@@ -84,7 +87,35 @@ Dialog {
          */
         const _flashDidFire = (_flashTag & (1 << 0));
 
-        return _flashDidFire ? i18n.tr("Yes") : i18n.tr("No");
+	return _flashDidFire ? i18n.tr("Yes") : i18n.tr("No");
+    }
+
+    function parseLatitudeData(value) {
+
+	if (root.exifData["Exif.GPSInfo.GPSLatitudeRef"] == "N") {
+	    //TRANSLATORS: DMS coordinate and coordinate latitude direction N for north
+	    return i18n.tr("%1 N").arg(value)
+	} else if (root.exifData["Exif.GPSInfo.GPSLatitudeRef"] == "S") {
+	    //TRANSLATORS: DMS coordinate and latitude direction S for south
+	    return i18n.tr("%1 S").arg(value)
+	}
+
+	return value + root.exifData["Exif.GPSInfo.GPSLatitudeRef"]
+    }
+
+    function parseLongitudeData(value) {
+	if (root.exifData["Exif.GPSInfo.GPSLongitudeRef"] == "E") {
+	    //TRANSLATORS: DMS coordinate and longitude direction E for east
+	    return i18n.tr("%1 E").arg(value)
+	} else if (root.exifData["Exif.GPSInfo.GPSLongitudeRef"] == "W") {
+	    //TRANSLATORS: DMS coordinate and longitude direction W for west
+	    return i18n.tr("%1 W").arg(value)
+	}
+	return value + root.exifData["Exif.GPSInfo.GPSLongitudeRef"]
+    }
+
+    function parseAltitudeData(value) {
+	return value.replace("/1","m");
     }
 
     __closeOnDismissAreaPress: true
