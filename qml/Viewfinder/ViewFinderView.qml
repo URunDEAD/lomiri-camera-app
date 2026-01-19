@@ -19,6 +19,7 @@ import QtQuick.Window 2.2
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
 import QtMultimedia 5.9
+import QtPositioning 5.2
 import CameraApp 0.1
 //import QtGraphicalEffects 1.0
 import Lomiri.Content 1.3
@@ -56,9 +57,24 @@ FocusScope {
         }
     }
 
+    FileOperations {
+	id: fileOperations
+    }
+
+    PositionSource {
+	id: positionSource
+	updateInterval: 1000
+	active: viewFinderOverlay.settings.gpsEnabled
+	property bool isPrecise: valid
+				    && position.latitudeValid
+				    && position.longitudeValid
+				    && (!position.horizontalAccuracyValid ||
+					position.horizontalAccuracy <= 100)
+    }
+
     property Camera camera: Camera {
-        id: camera
-        captureMode: Camera.CaptureStillImage
+	id: camera
+	captureMode: Camera.CaptureStillImage
         cameraState: Camera.UnloadedState
         StateSaver.properties: "captureMode, position"
         property bool failedToConnect: false
@@ -134,6 +150,11 @@ FocusScope {
                 if(!viewFinderOverlay.settings.hasEXIF) {
                     // TODO: make this operation asynchronous.
                     postProcessOperations.deleteEXIFdata(path);
+                } else if (viewFinderOverlay.settings.gpsEnabled && positionSource.isPrecise) {
+                    var position = positionSource.position;
+                    fileOperations.setEXIFData(path,
+                                            position.coordinate.latitude,
+                                            position.coordinate.longitude);
                 }
 
                 if(viewFinderOverlay.settings.dateStampImages && !main.contentExportMode) {
@@ -147,7 +168,8 @@ FocusScope {
                 // TODO: make it so that asynchronous operations signals to us
                 // on finished and only then proceed to the code below.
 
-                if (main.contentExportMode)
+
+		if (main.contentExportMode)
                     viewFinderExportConfirmation.mediaPath = path;
 
                 viewFinderView.photoTaken(path);
