@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2023-01-04 19:47+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-01-25 16:48+0000\n"
+"Last-Translator: BoneNI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://hosted.weblate.org/projects/lomiri/lomiri-camera-"
 "app/lo/>\n"
 "Language: lo\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 "X-Launchpad-Export-Date: 2016-12-01 04:53+0000\n"
 
 #: lomiri-camera-app.desktop.in:4 lomiri-camera-app.desktop.in:6
@@ -27,412 +27,408 @@ msgstr "ກ້ອງ"
 
 #: lomiri-camera-app.desktop.in:5
 msgid "Camera application"
-msgstr "ໂປຣເເກຣມກ້ອງ"
+msgstr "ແອັບພລິເຄຊັນກ້ອງ"
 
 #: lomiri-camera-app.desktop.in:7
 msgid "Photos;Videos;Capture;Shoot;Snapshot;Record"
-msgstr ""
+msgstr "ຮູບພາບ;ວິດີໂອ;ຈັບພາບ;ຖ່າຍ;ພາບຖ່າຍ;ບັນທຶກ"
 
 #: lomiri-camera-app.desktop.in:10
 msgid "lomiri-camera-app"
-msgstr ""
+msgstr "lomiri-camera-app"
 
 #: lomiri-barcode-reader-app.desktop.in:4
 #: lomiri-barcode-reader-app.desktop.in:6
 msgid "Barcode Reader"
-msgstr ""
+msgstr "ເຄື່ອງອ່ານບາໂຄດ"
 
 #: lomiri-barcode-reader-app.desktop.in:5
-#, fuzzy
-#| msgid "Camera application"
 msgid "Barcode Reader application"
 msgstr "ໂປຣເເກຣມກ້ອງ"
 
 #: lomiri-barcode-reader-app.desktop.in:7
 msgid "QR;Code;Reader"
-msgstr ""
+msgstr "QR;ລະຫັດ;ເຄື່ອງອ່ານ"
 
 #: lomiri-barcode-reader-app.desktop.in:10
 msgid "lomiri-barcode-reader-app"
-msgstr ""
+msgstr "lomiri-barcode-reader-app"
 
 #: AdvancedOptions.qml:23 PhotogridView.qml:69 SlideshowView.qml:77
 msgid "Settings"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າ"
 
 #: AdvancedOptions.qml:27
 msgid "Close"
-msgstr ""
+msgstr "ປິດ"
 
 #: AdvancedOptions.qml:35 Information.qml:20 PhotogridView.qml:78
 #: SlideshowView.qml:86
 msgid "About"
-msgstr ""
+msgstr "ກ່ຽວກັບ"
 
 #: AdvancedOptions.qml:66
 msgid "Add date stamp on captured images"
-msgstr ""
+msgstr "ເພີ່ມວັນທີລົງໃນຮູບທີ່ຖ່າຍ"
 
 #. TRANSLATORS: this refers to the opacity  of date stamp added to captured images
 #: AdvancedOptions.qml:89
 msgid "Format"
-msgstr ""
+msgstr "ຮູບແບບ"
 
 #: AdvancedOptions.qml:142
 msgid "Date formatting keywords"
-msgstr ""
+msgstr "ຄຳສຳຄັນສຳລັບຈັດຮູບແບບວັນທີ"
 
 #: AdvancedOptions.qml:147
 msgid "the day as number without a leading zero (1 to 31)"
-msgstr ""
+msgstr "ວັນທີເປັນຕົວເລກແບບບໍ່ມີເລກສູນນຳໜ້າ (1 ຫາ 31)"
 
 #: AdvancedOptions.qml:148
 msgid "the day as number with a leading zero (01 to 31)"
-msgstr ""
+msgstr "ວັນທີເປັນຕົວເລກແບບມີເລກສູນນຳໜ້າ (01 ຫາ 31)"
 
 #: AdvancedOptions.qml:149
 msgid "the abbreviated localized day name (e.g. 'Mon' to 'Sun')."
-msgstr ""
+msgstr "ຊື່ວັນແບບຫຍໍ້ຕາມທ້ອງຖິ່ນ (ຕົວຢ່າງ 'ຈັນ' ຫາ 'ອາທິດ')."
 
 #: AdvancedOptions.qml:150
 msgid "the long localized day name (e.g. 'Monday' to 'Sunday')."
-msgstr ""
+msgstr "ຊື່ວັນແບບເຕັມຕາມທ້ອງຖິ່ນ (ຕົວຢ່າງ 'ວັນຈັນ' ຫາ 'ວັນອາທິດ')."
 
 #: AdvancedOptions.qml:151
 msgid "the month as number without a leading zero (1 to 12)"
-msgstr ""
+msgstr "ເດືອນເປັນຕົວເລກແບບບໍ່ມີເລກສູນນຳໜ້າ (1 ຫາ 12)"
 
 #: AdvancedOptions.qml:152
 msgid "the month as number with a leading zero (01 to 12)"
-msgstr ""
+msgstr "ເດືອນເປັນຕົວເລກແບບມີເລກສູນນຳໜ້າ (01 ຫາ 12)"
 
 #: AdvancedOptions.qml:153
 msgid "the abbreviated localized month name (e.g. 'Jan' to 'Dec')."
-msgstr ""
+msgstr "ຊື່ເດືອນແບບຫຍໍ້ຕາມທ້ອງຖິ່ນ (ຕົວຢ່າງ 'ມັງກອນ' ຫາ 'ທັນວາ')."
 
 #: AdvancedOptions.qml:154
 msgid "the long localized month name (e.g. 'January' to 'December')."
-msgstr ""
+msgstr "ຊື່ເດືອນແບບເຕັມຕາມທ້ອງຖິ່ນ (ຕົວຢ່າງ 'ມັງກອນ' ຫາ 'ທັນວາ')."
 
 #: AdvancedOptions.qml:155
 msgid "the year as two digit number (00 to 99)"
-msgstr ""
+msgstr "ປີເປັນຕົວເລກສອງຫຼັກ (00 ຫາ 99)"
 
 #: AdvancedOptions.qml:156
 msgid ""
 "the year as four digit number. If the year is negative, a minus sign is "
 "prepended in addition."
-msgstr ""
+msgstr "ປີເປັນຕົວເລກສີ່ຫຼັກ. ຖ້າເປັນປີລົບ, ຈະມີເຄື່ອງໝາຍລົບຢູ່ທາງໜ້າ."
 
 #: AdvancedOptions.qml:157
 msgid "the hour without a leading zero (0 to 23 or 1 to 12 if AM/PM display)"
-msgstr ""
+msgstr "ຊົ່ວໂມງແບບບໍ່ມີເລກສູນນຳໜ້າ (0 ຫາ 23 ຫຼື 1 ຫາ 12 ຖ້າສະແດງແບບ AM/PM)"
 
 #: AdvancedOptions.qml:158
 msgid "the hour with a leading zero (00 to 23 or 01 to 12 if AM/PM display)"
-msgstr ""
+msgstr "ຊົ່ວໂມງແບບມີເລກສູນນຳໜ້າ (00 ຫາ 23 ຫຼື 01 ຫາ 12 ຖ້າສະແດງແບບ AM/PM)"
 
 #: AdvancedOptions.qml:159
 msgid "the hour without a leading zero (0 to 23, even with AM/PM display)"
-msgstr ""
+msgstr "ຊົ່ວໂມງແບບບໍ່ມີເລກສູນນຳໜ້າ (0 ຫາ 23, ເຖິງແມ່ນຈະສະແດງແບບ AM/PM)"
 
 #: AdvancedOptions.qml:160
 msgid "the hour with a leading zero (00 to 23, even with AM/PM display)"
-msgstr ""
+msgstr "ຊົ່ວໂມງແບບມີເລກສູນນຳໜ້າ (00 ຫາ 23, ເຖິງແມ່ນຈະສະແດງແບບ AM/PM)"
 
 #: AdvancedOptions.qml:161
 msgid "the minute without a leading zero (0 to 59)"
-msgstr ""
+msgstr "ນາທີແບບບໍ່ມີເລກສູນນຳໜ້າ (0 ຫາ 59)"
 
 #: AdvancedOptions.qml:162
 msgid "the minute with a leading zero (00 to 59)"
-msgstr ""
+msgstr "ນາທີແບບມີເລກສູນນຳໜ້າ (00 ຫາ 59)"
 
 #: AdvancedOptions.qml:163
 msgid "the second without a leading zero (0 to 59)"
-msgstr ""
+msgstr "ວິນາທີແບບບໍ່ມີເລກສູນນຳໜ້າ (0 ຫາ 59)"
 
 #: AdvancedOptions.qml:164
 msgid "the second with a leading zero (00 to 59)"
-msgstr ""
+msgstr "ວິນາທີແບບມີເລກສູນນຳໜ້າ (00 ຫາ 59)"
 
 #: AdvancedOptions.qml:165
 msgid "the milliseconds without leading zeroes (0 to 999)"
-msgstr ""
+msgstr "ມິນລິວິນາທີແບບບໍ່ມີເລກສູນນຳໜ້າ (0 ຫາ 999)"
 
 #: AdvancedOptions.qml:166
 msgid "the milliseconds with leading zeroes (000 to 999)"
-msgstr ""
+msgstr "ມິນລິວິນາທີແບບມີເລກສູນນຳໜ້າ (000 ຫາ 999)"
 
 #: AdvancedOptions.qml:167
 msgid "use AM/PM display. AP will be replaced by either 'AM' or 'PM'."
-msgstr ""
+msgstr "ໃຊ້ການສະແດງຜົນແບບ AM/PM. AP ຈະຖືກແທນທີ່ດ້ວຍ 'AM' ຫຼື 'PM'."
 
 #: AdvancedOptions.qml:168
 msgid "use am/pm display. ap will be replaced by either 'am' or 'pm'."
-msgstr ""
+msgstr "ໃຊ້ການສະແດງຜົນແບບ am/pm. ap ຈະຖືກແທນທີ່ດ້ວຍ 'am' ຫຼື 'pm'."
 
 #: AdvancedOptions.qml:169
 msgid "the timezone (for example 'CEST')"
-msgstr ""
+msgstr "ເຂດເວລາ (ຕົວຢ່າງ 'CEST')"
 
 #: AdvancedOptions.qml:178
 msgid "Add to Format"
-msgstr ""
+msgstr "ເພີ່ມໃສ່ຮູບແບບ"
 
 #. TRANSLATORS: this refers to the color of date stamp added to captured images
 #: AdvancedOptions.qml:209
 msgid "Color"
-msgstr ""
+msgstr "ສີ"
 
 #. TRANSLATORS: this refers to the alignment of date stamp within captured images (bottom left, top right,etc..)
 #: AdvancedOptions.qml:278
 msgid "Alignment"
-msgstr ""
+msgstr "ການຈັດວາງ"
 
 #. TRANSLATORS: this refers to the opacity  of date stamp added to captured images
 #: AdvancedOptions.qml:323
 msgid "Opacity"
-msgstr ""
+msgstr "ຄວາມໂປ່ງໃສ"
 
 #: AdvancedOptions.qml:346
 msgid "Blurred Overlay"
-msgstr ""
+msgstr "ການຊ້ອນທັບແບບມົວ"
 
 #: AdvancedOptions.qml:367
 msgid "Only Blur Preview overlay"
-msgstr ""
+msgstr "ມົວສະເພາະການຊ້ອນທັບຕົວຢ່າງ"
 
 #: DeleteDialog.qml:24
 msgid "Delete media?"
-msgstr ""
+msgstr "ລຶບສື່ບໍ່?"
 
 #: DeleteDialog.qml:34 PhotogridView.qml:56 SlideshowView.qml:69
-#, fuzzy
 msgid "Delete"
-msgstr "Delete"
+msgstr "ລືບ"
 
 #: DeleteDialog.qml:40 ViewFinderOverlay.qml:1203 ViewFinderOverlay.qml:1217
 #: ViewFinderOverlay.qml:1265 ViewFinderView.qml:409
-#, fuzzy
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "ຍົກເລີກ"
 
 #: GalleryView.qml:270
 msgid "No media available."
-msgstr ""
+msgstr "ບໍ່ມີສື່ທີ່ມີຢູ່."
 
 #: GalleryView.qml:305
 msgid "Scanning for content..."
-msgstr ""
+msgstr "ກຳລັງສະແກນຫາເນື້ອຫາ..."
 
 #: GalleryViewHeader.qml:84 SlideshowView.qml:46
 msgid "Select"
-msgstr ""
+msgstr "ເລືອກ"
 
 #: GalleryViewHeader.qml:85
 msgid "Edit Photo"
-msgstr ""
+msgstr "ແກ້ໄຂຮູບພາບ"
 
 #: GalleryViewHeader.qml:85
 msgid "Photo Roll"
-msgstr ""
+msgstr "ຄັງຮູບພາບ"
 
 #: Information.qml:25
 msgid "Back"
-msgstr ""
+msgstr "ກັບຄືນ"
 
 #: Information.qml:76
 msgid "Get the source"
-msgstr ""
+msgstr "ຮັບຊອດໂຄ້ດ"
 
 #: Information.qml:77
 msgid "Report issues"
-msgstr ""
+msgstr "ລາຍງານບັນຫາ"
 
 #: Information.qml:78
 msgid "Help translate"
-msgstr ""
+msgstr "ຊ່ວຍແປພາສາ"
 
 #: MediaInfoPopover.qml:14
 #, qt-format
 msgid "Width : %1"
-msgstr ""
+msgstr "ຄວາມກວ້າງ: %1"
 
 #: MediaInfoPopover.qml:15
 #, qt-format
 msgid "Height : %1"
-msgstr ""
+msgstr "ຄວາມສູງ: %1"
 
 #: MediaInfoPopover.qml:16
 #, qt-format
 msgid "Date : %1"
-msgstr ""
+msgstr "ວັນທີ: %1"
 
 #: MediaInfoPopover.qml:17
 #, qt-format
 msgid "Camera Model : %1"
-msgstr ""
+msgstr "ລຸ້ນກ້ອງ: %1"
 
 #: MediaInfoPopover.qml:18
 #, qt-format
 msgid "Copyright : %1"
-msgstr ""
+msgstr "ລິຂະສິດ: %1"
 
 #: MediaInfoPopover.qml:19
 #, qt-format
 msgid "Exposure Time : %1"
-msgstr ""
+msgstr "ເວລາເປີດໜ້າກ້ອງ: %1"
 
 #: MediaInfoPopover.qml:20
 #, qt-format
 msgid "F. Number : %1"
-msgstr ""
+msgstr "ຄ່າຮູຮັບແສງ (F): %1"
 
 #: MediaInfoPopover.qml:21
 #, qt-format
 msgid "Sub-File type : %1"
-msgstr ""
+msgstr "ປະເພດໄຟລ໌ຍ່ອຍ: %1"
 
 #: MediaInfoPopover.qml:43
 msgid "Media Information"
-msgstr ""
+msgstr "ຂໍ້ມູນສື່"
 
 #: MediaInfoPopover.qml:48
 #, qt-format
 msgid "Name : %1"
-msgstr ""
+msgstr "ຊື່: %1"
 
 #: MediaInfoPopover.qml:51
 #, qt-format
 msgid "Type : %1"
-msgstr ""
+msgstr "ປະເພດ: %1"
 
 #: MediaInfoPopover.qml:83
 #, qt-format
 msgid "With Flash : %1"
-msgstr ""
+msgstr "ໃຊ້ແຟລດຊ໌: %1"
 
 #: MediaInfoPopover.qml:83
 msgid "Yes"
-msgstr ""
+msgstr "ແມ່ນ"
 
 #: MediaInfoPopover.qml:83
 msgid "No"
-msgstr ""
+msgstr "ບໍ່"
 
 #: NoSpaceHint.qml:33
 msgid "No space left on device, free up space to continue."
-msgstr ""
+msgstr "ພື້ນທີ່ໃນອຸປະກອນເຕັມ, ກະລຸນາເພີ່ມພື້ນທີ່ວ່າງເພື່ອສືບຕໍ່."
 
 #: PhotoRollHint.qml:69
 msgid "Swipe left for photo roll"
-msgstr ""
+msgstr "ປັດໄປທາງຊ້າຍເພື່ອເບິ່ງຄັງຮູບພາບ"
 
 #: PhotogridView.qml:42 SlideshowView.qml:54
 msgid "Share"
-msgstr ""
+msgstr "ແບ່ງປັນ"
 
 #: SlideshowView.qml:62
 msgid "Image Info"
-msgstr ""
+msgstr "ຂໍ້ມູນຮູບພາບ"
 
 #: SlideshowView.qml:98
-#, fuzzy
 msgid "Edit"
-msgstr "Edit"
+msgstr "ແກ້ໄຂ"
 
 #: SlideshowView.qml:477
 msgid "Back to Photo roll"
-msgstr ""
+msgstr "ກັບຄືນໄປຄັງຮູບພາບ"
 
 #: UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr ""
+msgstr "ບໍ່ສາມາດແບ່ງປັນໄດ້"
 
 #: UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr ""
+msgstr "ບໍ່ສາມາດແບ່ງປັນຮູບພາບ ແລະ ວິດີໂອໃນເວລາດຽວກັນໄດ້"
 
 #: UnableShareDialog.qml:30
 msgid "Ok"
-msgstr ""
+msgstr "ຕົກລົງ"
 
 #: ViewFinderOverlay.qml:469 ViewFinderOverlay.qml:492
 #: ViewFinderOverlay.qml:520 ViewFinderOverlay.qml:543
 #: ViewFinderOverlay.qml:628 ViewFinderOverlay.qml:695
 msgid "On"
-msgstr ""
+msgstr "ເປີດ"
 
 #: ViewFinderOverlay.qml:474 ViewFinderOverlay.qml:502
 #: ViewFinderOverlay.qml:525 ViewFinderOverlay.qml:548
 #: ViewFinderOverlay.qml:567 ViewFinderOverlay.qml:633
 #: ViewFinderOverlay.qml:705
 msgid "Off"
-msgstr ""
+msgstr "ປິດ"
 
 #: ViewFinderOverlay.qml:497
 msgid "Auto"
-msgstr ""
+msgstr "ອັດຕະໂນມັດ"
 
 #: ViewFinderOverlay.qml:534
 msgid "HDR"
-msgstr ""
+msgstr "HDR"
 
 #: ViewFinderOverlay.qml:572
 msgid "5 seconds"
-msgstr ""
+msgstr "5 ວິນາທີ"
 
 #: ViewFinderOverlay.qml:577
 msgid "15 seconds"
-msgstr ""
+msgstr "15 ວິນາທີ"
 
 #: ViewFinderOverlay.qml:595
 msgid "Fine Quality"
-msgstr ""
+msgstr "ຄຸນນະພາບດີຫຼາຍ"
 
 #: ViewFinderOverlay.qml:600
 msgid "High Quality"
-msgstr ""
+msgstr "ຄຸນນະພາບສູງ"
 
 #: ViewFinderOverlay.qml:605
 msgid "Normal Quality"
-msgstr ""
+msgstr "ຄຸນນະພາບປົກກະຕິ"
 
 #: ViewFinderOverlay.qml:610
 msgid "Basic Quality"
-msgstr ""
+msgstr "ຄຸນນະພາບພື້ນຖານ"
 
 #. TRANSLATORS: this will be displayed on an small button so for it to fit it should be less then 3 characters long.
 #: ViewFinderOverlay.qml:643
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
 #: ViewFinderOverlay.qml:651
 msgid "Save to SD Card"
-msgstr ""
+msgstr "ບັນທຶກລົງບັດ SD"
 
 #: ViewFinderOverlay.qml:656
 msgid "Save internally"
-msgstr ""
+msgstr "ບັນທຶກໃນເຄື່ອງ"
 
 #: ViewFinderOverlay.qml:700
 msgid "Vibrate"
-msgstr ""
+msgstr "ສັ່ນ"
 
 #: ViewFinderOverlay.qml:1200
 msgid "Low storage space"
-msgstr ""
+msgstr "ພື້ນທີ່ຈັດເກັບຂໍ້ມູນເຫຼືອໜ້ອຍ"
 
 #: ViewFinderOverlay.qml:1201
 msgid ""
 "You are running out of storage space. To continue without interruptions, "
 "free up storage space now."
 msgstr ""
+"ພື້ນທີ່ຈັດເກັບຂໍ້ມູນຂອງທ່ານໃກ້ຈະເຕັມແລ້ວ. ເພື່ອສືບຕໍ່ໂດຍບໍ່ມີການຂັດຈັງຫວະ, ກະລຸນາເພີ່ມພື້ນທີ່ວ່າງດຽວນີ້."
 
 #: ViewFinderOverlay.qml:1214
 msgid "External storage not writeable"
-msgstr ""
+msgstr "ບໍ່ສາມາດຂຽນຂໍ້ມູນລົງໃນບ່ອນຈັດເກັບຂໍ້ມູນພາຍນອກໄດ້"
 
 #: ViewFinderOverlay.qml:1215
 msgid ""
@@ -440,10 +436,12 @@ msgid ""
 "eject and insert it again might solve the issue, or you might need to format "
 "it."
 msgstr ""
+"ເບິ່ງຄືວ່າບໍ່ສາມາດຂຽນຂໍ້ມູນລົງໃນສື່ຈັດເກັບຂໍ້ມູນພາຍນອກຂອງທ່ານໄດ້. ລອງຖອດອອກແລ້ວໃສ່ເຂົ້າໃໝ່ອີກຄັ້ງ ຫຼື ທ່ານອ"
+"າດຈະຕ້ອງຟໍແມັດມັນ."
 
 #: ViewFinderOverlay.qml:1253
 msgid "Cannot access camera"
-msgstr ""
+msgstr "ບໍ່ສາມາດເຂົ້າເຖິງກ້ອງໄດ້"
 
 #: ViewFinderOverlay.qml:1254
 msgid ""
@@ -452,32 +450,36 @@ msgid ""
 "\n"
 "If granting permission does not resolve this problem, reboot your device."
 msgstr ""
+"ແອັບກ້ອງບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ເຂົ້າເຖິງຮາດແວຣ໌ກ້ອງ ຫຼື ເກີດຂໍ້ຜິດພາດອື່ນໆ.\n"
+"\n"
+"ຫາກການໃຫ້ອະນຸຍາດບໍ່ສາມາດແກ້ໄຂບັນຫານີ້ໄດ້, ໃຫ້ລອງເປີດອຸປະກອນຂອງທ່ານໃໝ່."
 
 #: ViewFinderOverlay.qml:1256
 msgid "Edit Permissions"
-msgstr ""
+msgstr "ແກ້ໄຂການອະນຸຍາດ"
 
 #: ViewFinderView.qml:400
 msgid "Capture failed"
-msgstr ""
+msgstr "ຈັບພາບລົ້ມເຫຼວ"
 
 #: ViewFinderView.qml:405
 msgid ""
 "Replacing your external media, formatting it, or restarting the device might "
 "fix the problem."
 msgstr ""
+"ການປ່ຽນສື່ພາຍນອກໃໝ່, ການຟໍແມັດ, ຫຼື ການເປີດອຸປະກອນໃໝ່ອາດຈະຊ່ວຍແກ້ໄຂບັນຫາໄດ້."
 
 #: ViewFinderView.qml:406
 msgid "Restarting your device might fix the problem."
-msgstr ""
+msgstr "ການເປີດອຸປະກອນໃໝ່ອາດຈະຊ່ວຍແກ້ໄຂບັນຫາໄດ້."
 
 #: camera-app.qml:61
 msgid "Flash"
-msgstr "ເເຟລດຊ໌"
+msgstr "ແຟລດຊ໌"
 
 #: camera-app.qml:62
 msgid "Light;Dark"
-msgstr "ເເສງ;ມຶດ"
+msgstr "ແສງ;ມືດ"
 
 #: camera-app.qml:65
 msgid "Flip Camera"
@@ -485,23 +487,23 @@ msgstr "ປີ້ນກ້ອງ"
 
 #: camera-app.qml:66
 msgid "Front Facing;Back Facing"
-msgstr "ທາງຫນ້າ;ທາງຫຼັງ"
+msgstr "ທາງໜ້າ;ທາງຫຼັງ"
 
 #: camera-app.qml:69
 msgid "Shutter"
-msgstr ""
+msgstr "ຊັດເຕີຣ໌"
 
 #: camera-app.qml:70
 msgid "Take a Photo;Snap;Record"
-msgstr "ທ່າຍຮູບ;ສະເເນບ;ອັດ"
+msgstr "ຖ່າຍຮູບ;ສະແນບ;ບັນທຶກ"
 
 #: camera-app.qml:73
 msgid "Mode"
-msgstr "ຮູບແບບ"
+msgstr "ໂໝດ"
 
 #: camera-app.qml:74
 msgid "Stills;Video"
-msgstr "ຈື້ງ;ວີດິໂອ"
+msgstr "ພາບນິ່ງ;ວິດີໂອ"
 
 #: camera-app.qml:78
 msgid "White Balance"
@@ -509,22 +511,22 @@ msgstr "ດຸນດ່ຽງສີຂາວ"
 
 #: camera-app.qml:79
 msgid "Lighting Condition;Day;Cloudy;Inside"
-msgstr "ເງື່ອນໄຂໄຟ;ມື້;ຄຸ້ນເມກ;ຂ້າງໃນ"
+msgstr "ເງື່ອນໄຂແສງ;ກາງເວັນ;ມີເມກ;ພາຍໃນ"
 
 #: camera-app.qml:386
 #, qt-format
 msgid "<b>%1</b> photos taken today"
-msgstr ""
+msgstr "ຖ່າຍຮູບແລ້ວ <b>%1</b> ໃບໃນມື້ນີ້"
 
 #: camera-app.qml:387
 msgid "No photos taken today"
-msgstr ""
+msgstr "ບໍ່ມີຮູບທີ່ຖ່າຍໃນມື້ນີ້"
 
 #: camera-app.qml:397
 #, qt-format
 msgid "<b>%1</b> videos recorded today"
-msgstr ""
+msgstr "ບັນທຶກວິດີໂອແລ້ວ <b>%1</b> ໄຟລ໌ໃນມື້ນີ້"
 
 #: camera-app.qml:398
 msgid "No videos recorded today"
-msgstr ""
+msgstr "ບໍ່ມີວິດີໂອທີ່ບັນທຶກໃນມື້ນີ້"
