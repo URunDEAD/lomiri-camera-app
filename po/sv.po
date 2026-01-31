@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2024-05-22 22:36+0000\n"
-"Last-Translator: bittin1ddc447d824349b2 <bittin@reimu.nl>\n"
+"PO-Revision-Date: 2026-02-01 06:03+0000\n"
+"Last-Translator: Daniel Wiik <d.wiik@outlook.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/lomiri/lomiri-"
 "camera-app/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 "X-Launchpad-Export-Date: 2016-12-01 04:53+0000\n"
 
 #: lomiri-camera-app.desktop.in:4 lomiri-camera-app.desktop.in:6
@@ -157,7 +157,7 @@ msgstr "sekunderna utan en nolla i början (0 till 59)"
 
 #: AdvancedOptions.qml:164
 msgid "the second with a leading zero (00 to 59)"
-msgstr "sekunderna med en en nolla i början (0 till 59)"
+msgstr "sekunderna med en nolla i början (0 till 59)"
 
 #: AdvancedOptions.qml:165
 msgid "the milliseconds without leading zeroes (0 to 999)"
