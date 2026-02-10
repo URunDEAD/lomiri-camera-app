@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2025-12-25 03:38+0000\n"
-"Last-Translator: Joana R <git@joana.click>\n"
+"PO-Revision-Date: 2026-02-17 14:09+0000\n"
+"Last-Translator: \"Хмеляускас Александр (JasonWalt Bab@)\" "
+"<mardimusa8@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/lomiri/lomiri-"
 "camera-app/eu/>\n"
 "Language: eu\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "X-Launchpad-Export-Date: 2016-12-01 04:53+0000\n"
 
 #: lomiri-camera-app.desktop.in:4 lomiri-camera-app.desktop.in:6
@@ -89,8 +90,9 @@ msgid "the day as number with a leading zero (01 to 31)"
 msgstr "eguna zenbaki gisa aurreko zeroarekin (01etik 31ra)"
 
 #: AdvancedOptions.qml:149
+#, fuzzy
 msgid "the abbreviated localized day name (e.g. 'Mon' to 'Sun')."
-msgstr ""
+msgstr "egunaren izen lokalizatu laburtua (adibidez, 'Asl' - 'Ig')."
 
 #: AdvancedOptions.qml:150
 msgid "the long localized day name (e.g. 'Monday' to 'Sunday')."
