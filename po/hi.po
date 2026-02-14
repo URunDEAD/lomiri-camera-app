@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2017-10-28 07:56+0000\n"
-"Last-Translator: Aayush Gupta <Aayushgupta219@gmail.com>\n"
-"Language-Team: Hindi <https://translate.ubports.com/projects/ubports/camera-"
-"app/hi/>\n"
+"PO-Revision-Date: 2026-02-17 14:09+0000\n"
+"Last-Translator: Satyaakam Goswami <satyaakam@gmail.com>\n"
+"Language-Team: Hindi <https://hosted.weblate.org/projects/lomiri/lomiri-"
+"camera-app/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "X-Launchpad-Export-Date: 2016-12-01 04:53+0000\n"
 
 #: lomiri-camera-app.desktop.in:4 lomiri-camera-app.desktop.in:6
@@ -31,181 +31,247 @@ msgstr "कैमरा एप्लिकेशन"
 
 #: lomiri-camera-app.desktop.in:7
 msgid "Photos;Videos;Capture;Shoot;Snapshot;Record"
-msgstr ""
+msgstr "फोटो; वीडियो; कैप्चर करें; शूट करें; स्नैपशॉट लें; रिकॉर्ड कर"
 
 #: lomiri-camera-app.desktop.in:10
 msgid "lomiri-camera-app"
-msgstr ""
+msgstr "लोमीरी कैमरा ऐप"
 
 #: lomiri-barcode-reader-app.desktop.in:4
 #: lomiri-barcode-reader-app.desktop.in:6
 msgid "Barcode Reader"
-msgstr ""
+msgstr "बार कोड पढ़ने वाला"
 
 #: lomiri-barcode-reader-app.desktop.in:5
-#, fuzzy
-#| msgid "Camera application"
 msgid "Barcode Reader application"
-msgstr "कैमरा एप्लिकेशन"
+msgstr "बारकोड रीडर ऐप्लिकेशन"
 
 #: lomiri-barcode-reader-app.desktop.in:7
 msgid "QR;Code;Reader"
-msgstr ""
+msgstr "स्कैनर"
 
 #: lomiri-barcode-reader-app.desktop.in:10
 msgid "lomiri-barcode-reader-app"
-msgstr ""
+msgstr "लोमिरी बार कोड वाचक ऐप"
 
 #: AdvancedOptions.qml:23 PhotogridView.qml:69 SlideshowView.qml:77
 msgid "Settings"
-msgstr ""
+msgstr "निर्देश"
 
 #: AdvancedOptions.qml:27
 msgid "Close"
-msgstr ""
+msgstr "बंद कर"
 
 #: AdvancedOptions.qml:35 Information.qml:20 PhotogridView.qml:78
 #: SlideshowView.qml:86
 msgid "About"
-msgstr ""
+msgstr "के बारे में"
 
 #: AdvancedOptions.qml:66
 msgid "Add date stamp on captured images"
-msgstr ""
+msgstr "अपडेट करने की तारीख छवियों पर डालें।"
 
 #. TRANSLATORS: this refers to the opacity  of date stamp added to captured images
 #: AdvancedOptions.qml:89
 msgid "Format"
-msgstr ""
+msgstr "व्यवस्था"
 
 #: AdvancedOptions.qml:142
 msgid "Date formatting keywords"
 msgstr ""
+"दिनांक प्रारूप की विशेषताएं \n"
+"\n"
+"1. year - वर्ष \n"
+"2. month - महीना\n"
+"3. day - दिन\n"
+"4. AM/PM (12-hour clock) - सायंकाल (मध्याह्न)\n"
+"5. Century (for date range) - सदी\n"
+"6. Year of the century - सदी का वर्ष"
 
 #: AdvancedOptions.qml:147
 msgid "the day as number without a leading zero (1 to 31)"
-msgstr ""
+msgstr "दिनांक के संख्या के रूप में (1 से 31 तक)"
 
 #: AdvancedOptions.qml:148
 msgid "the day as number with a leading zero (01 to 31)"
 msgstr ""
+"दिनांक के रूप में (दिन और महीना) संख्या के साथ शुरुआत होती है (०१ से ३१ तक)\n"
+"\n"
+"(Note: In Hindi, the word for \"day\" is \"दिन\" and for \"month\" is \"महीना"
+"।)"
 
 #: AdvancedOptions.qml:149
 msgid "the abbreviated localized day name (e.g. 'Mon' to 'Sun')."
 msgstr ""
+"दिनांक की संक्षिप्त व्याख्या (सु. दिनाचे नाव: मंगळ, सो. दिनाचे नाव: सूर्य)\n"
+"\n"
+"Note: In Hindi, the days of the week are:\n"
+"\n"
+"मंगल (Mangal) - Monday\n"
+"सोम (Som) - Tuesday\n"
+"मंगल ( Mangal) - Wednesday is sometimes referred to as ‘मंगल’ but more "
+"commonly as  ‘भाद्र’\n"
+"गुरुवार (Guruvar) - Thursday\n"
+"फ्रेंच वाक्यांश ‘Sun’ used in English is often translated to सूर्य (Surya)\n"
+"शनि (Shani) - Friday\n"
+"शुक्रवार (Shukrawar) - Saturday"
 
 #: AdvancedOptions.qml:150
 msgid "the long localized day name (e.g. 'Monday' to 'Sunday')."
 msgstr ""
+"पंगल साप्ताहिक दिन का लंबा स्थानांकित नाम (जैसे कि 'मंगलवार' से 'रविवार')।"
 
 #: AdvancedOptions.qml:151
 msgid "the month as number without a leading zero (1 to 12)"
-msgstr ""
+msgstr "माह की संख्या के रूप में (0 से लेकर 12 तक)"
 
 #: AdvancedOptions.qml:152
 msgid "the month as number with a leading zero (01 to 12)"
-msgstr ""
+msgstr "मास की संख्या के साथ एक शीर्ष अंक (०१ से १२)।"
 
 #: AdvancedOptions.qml:153
 msgid "the abbreviated localized month name (e.g. 'Jan' to 'Dec')."
-msgstr ""
+msgstr "मास की संक्षिप्त स्थानीय नाम (उदाहरण के लिए, 'Jan' से 'Dec')।"
 
 #: AdvancedOptions.qml:154
 msgid "the long localized month name (e.g. 'January' to 'December')."
-msgstr ""
+msgstr "जानवर"
 
 #: AdvancedOptions.qml:155
 msgid "the year as two digit number (00 to 99)"
-msgstr ""
+msgstr "वर्ष को दो अंकों में (०० से ९९)"
 
 #: AdvancedOptions.qml:156
 msgid ""
 "the year as four digit number. If the year is negative, a minus sign is "
 "prepended in addition."
 msgstr ""
+"वर्ष को चार अंकों की संख्या के रूप में दिखाएं। यदि वर्ष ऋणात्मक है, तो उसके लिए एक "
+"नकारात्मक निशान पूर्वनिर्धारित हो।"
 
 #: AdvancedOptions.qml:157
 msgid "the hour without a leading zero (0 to 23 or 1 to 12 if AM/PM display)"
 msgstr ""
+"समय के घंटे बिना नेवी शून्य (० से २३ या १ से १२ यदि एएम/पीएम प्रदर्शन होता है)\n"
+"\n"
+"Note: In Hindi, the word \"नेवी\" is not typically used. Instead, we use "
+"\"समय के घंटे\". I've translated it as per your request to keep English words "
+"for clarity.\n"
+"\n"
+"Alternatively, a more natural-sounding translation would be:\n"
+"\n"
+"समय के घंटे से शून्य (० से २३ या १ से १२ यदि एएम/पीएम प्रदर्शन होता है)\n"
+"\n"
+"This translates to \"the hour without a leading zero\" (० से २३ या १ से १२ यदि "
+"एएम/पीएम प्रदर्शन होता है) with a slight modification in the first sentence."
 
 #: AdvancedOptions.qml:158
 msgid "the hour with a leading zero (00 to 23 or 01 to 12 if AM/PM display)"
 msgstr ""
+"गंतव्य समय (आठ दिनों का समय), जिसमें शामिल हैं: \n"
+"\n"
+"सुबह-शाम में संख्या एक से चार (01-04) और रात्रि में संख्या 0 से 9 तक।"
 
 #: AdvancedOptions.qml:159
 msgid "the hour without a leading zero (0 to 23, even with AM/PM display)"
 msgstr ""
+"अचानक समय (Achanik samay)\n"
+"\n"
+"or \n"
+"\n"
+"समय के बिना घंटा (Samay ke bina ghanta)\n"
+"\n"
+"or \n"
+"\n"
+"सामान्य घंटा प्रदर्शन (Samaantra ghanta pradarshan), जिसमें 00 से 23 तक होता है और "
+"AM/PM दिखाया जाता है।"
 
 #: AdvancedOptions.qml:160
 msgid "the hour with a leading zero (00 to 23, even with AM/PM display)"
 msgstr ""
+"चालिस मिनट (Thirty minutes)\n"
+"\n"
+"Note: In Hindi, 'चालिस' is used for thirty. If you want to use English "
+"words, the translation would be '30 मिनट'."
 
 #: AdvancedOptions.qml:161
 msgid "the minute without a leading zero (0 to 59)"
 msgstr ""
+"मिनट के बिना शून्य से शुरू होने वाली एक मिनट (० तो ५९)\n"
+"\n"
+"Note: In Hindi, the word \"minute\" is directly translated as \"मिनट\" "
+"(minta). The phrase \"without a leading zero\" is not explicitly used in "
+"Hindi, so I used a more natural translation that implies the absence of a "
+"leading zero."
 
 #: AdvancedOptions.qml:162
 msgid "the minute with a leading zero (00 to 59)"
-msgstr ""
+msgstr "देर से की गई मिनट (मिनिट)"
 
 #: AdvancedOptions.qml:163
 msgid "the second without a leading zero (0 to 59)"
-msgstr ""
+msgstr "दूसरा बिना शीर्ष के जercero (0 से 59 तक)"
 
 #: AdvancedOptions.qml:164
 msgid "the second with a leading zero (00 to 59)"
-msgstr ""
+msgstr "दूसरा से शुरुआत होने वाला संख्या दशमलव में है (०० से ५९ तक)।"
 
 #: AdvancedOptions.qml:165
 msgid "the milliseconds without leading zeroes (0 to 999)"
 msgstr ""
+"चार से चार लाख मिलीसेकंड (4 to 6 लाख मिलीसेकंड), चार से छह लाख मिलीसेकंड (1000 to "
+"9999 मिलीसेकंड)"
 
 #: AdvancedOptions.qml:166
 msgid "the milliseconds with leading zeroes (000 to 999)"
-msgstr ""
+msgstr "मिलीसेकंड्स (००० से ९९९ तक के साथ लीडिंग जीरो)"
 
 #: AdvancedOptions.qml:167
 msgid "use AM/PM display. AP will be replaced by either 'AM' or 'PM'."
 msgstr ""
+"उपयोगकर्ता के समय को दिन-रात विचार करने की अनुमति दें और एपी को सटीक समय (दोपहर या "
+"रात) पर बदल दें।"
 
 #: AdvancedOptions.qml:168
 msgid "use am/pm display. ap will be replaced by either 'am' or 'pm'."
 msgstr ""
+"उपयोगकर्ता के लिए समय प्रदर्शन की व्यवस्था करें, जहां 'AP' शाम या सुबह (AM) होता है और "
+"इसकी जगह 'AM' या 'PM' हो सकता है।"
 
 #: AdvancedOptions.qml:169
 msgid "the timezone (for example 'CEST')"
-msgstr ""
+msgstr "समयज़ोन (Time Zone)"
 
 #: AdvancedOptions.qml:178
 msgid "Add to Format"
-msgstr ""
+msgstr "\"सहजता लागू करें\" (Sahajata laghu karein)"
 
 #. TRANSLATORS: this refers to the color of date stamp added to captured images
 #: AdvancedOptions.qml:209
 msgid "Color"
-msgstr ""
+msgstr "रंग"
 
 #. TRANSLATORS: this refers to the alignment of date stamp within captured images (bottom left, top right,etc..)
 #: AdvancedOptions.qml:278
 msgid "Alignment"
-msgstr ""
+msgstr "संबंध"
 
 #. TRANSLATORS: this refers to the opacity  of date stamp added to captured images
 #: AdvancedOptions.qml:323
 msgid "Opacity"
-msgstr ""
+msgstr "अंधकारमयता (Andhakār-mayatā)"
 
 #: AdvancedOptions.qml:346
 msgid "Blurred Overlay"
-msgstr ""
+msgstr "मादक प्रतिबिंब"
 
 #: AdvancedOptions.qml:367
 msgid "Only Blur Preview overlay"
-msgstr ""
+msgstr "केवल फ़ॉर ग्लियर प्रिव्यूवरी ओव़रले"
 
 #: DeleteDialog.qml:24
 msgid "Delete media?"
-msgstr ""
+msgstr "मीडिया हटाने की जांच करें?"
 
 #: DeleteDialog.qml:34 PhotogridView.qml:56 SlideshowView.qml:69
 msgid "Delete"
@@ -218,122 +284,122 @@ msgstr "रद्द"
 
 #: GalleryView.qml:270
 msgid "No media available."
-msgstr ""
+msgstr "कोई मीडिया उपलब्ध नहीं है।"
 
 #: GalleryView.qml:305
 msgid "Scanning for content..."
-msgstr ""
+msgstr "स्कैनिंग कंटेंट के लिए..।"
 
 #: GalleryViewHeader.qml:84 SlideshowView.qml:46
 msgid "Select"
-msgstr ""
+msgstr "निर्वाचित"
 
 #: GalleryViewHeader.qml:85
 msgid "Edit Photo"
-msgstr ""
+msgstr "फोटो संपादित करें"
 
 #: GalleryViewHeader.qml:85
 msgid "Photo Roll"
-msgstr ""
+msgstr "फ़ोटो रोल"
 
 #: Information.qml:25
 msgid "Back"
-msgstr ""
+msgstr "पीछे"
 
 #: Information.qml:76
 msgid "Get the source"
-msgstr ""
+msgstr "प्रारंभ"
 
 #: Information.qml:77
 msgid "Report issues"
-msgstr ""
+msgstr "संदेशों में समस्याएं बताएं"
 
 #: Information.qml:78
 msgid "Help translate"
-msgstr ""
+msgstr "मदद करें"
 
 #: MediaInfoPopover.qml:14
 #, qt-format
 msgid "Width : %1"
-msgstr ""
+msgstr "चौड़ाई : %1"
 
 #: MediaInfoPopover.qml:15
 #, qt-format
 msgid "Height : %1"
-msgstr ""
+msgstr "उंचाई: %1"
 
 #: MediaInfoPopover.qml:16
 #, qt-format
 msgid "Date : %1"
-msgstr ""
+msgstr "दिनांक : %1"
 
 #: MediaInfoPopover.qml:17
 #, qt-format
 msgid "Camera Model : %1"
-msgstr ""
+msgstr "कैमरा मॉडल : %1"
 
 #: MediaInfoPopover.qml:18
 #, qt-format
 msgid "Copyright : %1"
-msgstr ""
+msgstr "स्वामित्व : %1"
 
 #: MediaInfoPopover.qml:19
 #, qt-format
 msgid "Exposure Time : %1"
-msgstr ""
+msgstr "दृश्यता का समय: %1"
 
 #: MediaInfoPopover.qml:20
 #, qt-format
 msgid "F. Number : %1"
-msgstr ""
+msgstr "फ़िफ़्टी संख्या: %1"
 
 #: MediaInfoPopover.qml:21
 #, qt-format
 msgid "Sub-File type : %1"
-msgstr ""
+msgstr "प्राथमिक फ़ाइल प्रकार : %1"
 
 #: MediaInfoPopover.qml:43
 msgid "Media Information"
-msgstr ""
+msgstr "मीडिया जानकारी"
 
 #: MediaInfoPopover.qml:48
 #, qt-format
 msgid "Name : %1"
-msgstr ""
+msgstr "नाम : %1"
 
 #: MediaInfoPopover.qml:51
 #, qt-format
 msgid "Type : %1"
-msgstr ""
+msgstr "प्रकार : %1"
 
 #: MediaInfoPopover.qml:83
 #, qt-format
 msgid "With Flash : %1"
-msgstr ""
+msgstr "श्वास (Flash) के साथ: %1"
 
 #: MediaInfoPopover.qml:83
 msgid "Yes"
-msgstr ""
+msgstr "जी हां"
 
 #: MediaInfoPopover.qml:83
 msgid "No"
-msgstr ""
+msgstr "नहीं"
 
 #: NoSpaceHint.qml:33
 msgid "No space left on device, free up space to continue."
-msgstr ""
+msgstr "न है डिवाइस में जगह, फ्री अप स्पेस को जारी रखें।"
 
 #: PhotoRollHint.qml:69
 msgid "Swipe left for photo roll"
-msgstr ""
+msgstr "फोटो रोल के लिए स्वाइप दाएं करें"
 
 #: PhotogridView.qml:42 SlideshowView.qml:54
 msgid "Share"
-msgstr ""
+msgstr "ज़रूर"
 
 #: SlideshowView.qml:62
 msgid "Image Info"
-msgstr ""
+msgstr "चित्र सूचना"
 
 #: SlideshowView.qml:98
 msgid "Edit"
@@ -341,95 +407,102 @@ msgstr "संपादित करें"
 
 #: SlideshowView.qml:477
 msgid "Back to Photo roll"
-msgstr ""
+msgstr "फोटो रोल वापस आना"
 
 #: UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr ""
+msgstr "अनुपलब्ध नहीं है (Anupalabhā nahi hai)"
 
 #: UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr ""
+msgstr "अनुपलब्ध नहीं है फोटो और वीडियो एक साथ साझा करना।"
 
 #: UnableShareDialog.qml:30
 msgid "Ok"
-msgstr ""
+msgstr "स्वीकार"
 
 #: ViewFinderOverlay.qml:469 ViewFinderOverlay.qml:492
 #: ViewFinderOverlay.qml:520 ViewFinderOverlay.qml:543
 #: ViewFinderOverlay.qml:628 ViewFinderOverlay.qml:695
 msgid "On"
-msgstr ""
+msgstr "ओन"
 
 #: ViewFinderOverlay.qml:474 ViewFinderOverlay.qml:502
 #: ViewFinderOverlay.qml:525 ViewFinderOverlay.qml:548
 #: ViewFinderOverlay.qml:567 ViewFinderOverlay.qml:633
 #: ViewFinderOverlay.qml:705
 msgid "Off"
-msgstr ""
+msgstr "बंद"
 
 #: ViewFinderOverlay.qml:497
 msgid "Auto"
 msgstr ""
+"अत्यावश्यकता के बिना (Autonomous) या स्वायत्त नहीं है \"आटो\" ही शब्द इस पर उपयोग "
+"किया जाता है, तो यह पूरा अथवा दोनों शब्दों का मिश्रण होगा, \"आतो\"।"
 
 #: ViewFinderOverlay.qml:534
 msgid "HDR"
 msgstr ""
+"उच्चतम दर्जे का हेडर (Uchhitam Darje Ka Headar) या सर्वोच्च श्रेणी का हेडर (Sarotheen "
+"Shreni Ka Headar)।"
 
 #: ViewFinderOverlay.qml:572
 msgid "5 seconds"
-msgstr ""
+msgstr "5 सेकंड"
 
 #: ViewFinderOverlay.qml:577
 msgid "15 seconds"
-msgstr ""
+msgstr "पंद्रह सेकंड"
 
 #: ViewFinderOverlay.qml:595
 msgid "Fine Quality"
-msgstr ""
+msgstr "सुंदर गुणवत्ता"
 
 #: ViewFinderOverlay.qml:600
 msgid "High Quality"
-msgstr ""
+msgstr "उच्च गुणवत्ता"
 
 #: ViewFinderOverlay.qml:605
 msgid "Normal Quality"
-msgstr ""
+msgstr "सामान्य गुणवत्ता"
 
 #: ViewFinderOverlay.qml:610
 msgid "Basic Quality"
-msgstr ""
+msgstr "बुनियादी गुणवत्ता"
 
 #. TRANSLATORS: this will be displayed on an small button so for it to fit it should be less then 3 characters long.
 #: ViewFinderOverlay.qml:643
 msgid "SD"
-msgstr ""
+msgstr "सीडी"
 
 #: ViewFinderOverlay.qml:651
 msgid "Save to SD Card"
 msgstr ""
+"ब्लू स्क्रीन ऑप्टिमाइज़ नहीं होने पर फोटो/वीडियो रिकॉर्डिंग की गुणवत्ता में कमी आ सकती है।"
 
 #: ViewFinderOverlay.qml:656
 msgid "Save internally"
-msgstr ""
+msgstr "बचाए गए"
 
 #: ViewFinderOverlay.qml:700
 msgid "Vibrate"
-msgstr ""
+msgstr "तंत्रित होना"
 
 #: ViewFinderOverlay.qml:1200
 msgid "Low storage space"
-msgstr ""
+msgstr "ज़रूरतमंद फ़ायलों के लिए कस्टमर डेटा स्टोरेज पर्याप्त नहीं है"
 
 #: ViewFinderOverlay.qml:1201
 msgid ""
 "You are running out of storage space. To continue without interruptions, "
 "free up storage space now."
 msgstr ""
+"आपके स्टोरेज स्थान की कमी हो रही है। निरंतरता बनाए रखने के लिए अब स्टोरेज स्थान को खाली "
+"करें।"
 
 #: ViewFinderOverlay.qml:1214
 msgid "External storage not writeable"
-msgstr ""
+msgstr "External storage नहीं लिखने योग्य है"
 
 #: ViewFinderOverlay.qml:1215
 msgid ""
@@ -437,10 +510,13 @@ msgid ""
 "eject and insert it again might solve the issue, or you might need to format "
 "it."
 msgstr ""
+"यह दिखाई नहीं देता कि आप अपने बाहरी स्टोरेज मीडिया पर लिखने की कोशिश कर रहे हैं। पलट "
+"करने और फिर से डिस्कनेक्ट करने का प्रयास करने से समस्या समाप्त हो सकती है, या शायद इसे "
+"फॉर्मेट करना पड़े।"
 
 #: ViewFinderOverlay.qml:1253
 msgid "Cannot access camera"
-msgstr ""
+msgstr "कैमरा की पहुंच नहीं है"
 
 #: ViewFinderOverlay.qml:1254
 msgid ""
@@ -449,24 +525,30 @@ msgid ""
 "\n"
 "If granting permission does not resolve this problem, reboot your device."
 msgstr ""
+"कैमरा ऐप को कैमरा हार्डवेयर या अन्य विकल्प पर अनुमति प्राप्त करने में असमर्थ है या एक अन्य "
+"भ्रम हुआ।\n"
+"\n"
+"अगर अनुमति देने से समस्या समाधान नहीं होती है, तो अपने डिवाइस को रीस्टार्ट करें।"
 
 #: ViewFinderOverlay.qml:1256
 msgid "Edit Permissions"
-msgstr ""
+msgstr "संपत्ति संशोधन अधिकार"
 
 #: ViewFinderView.qml:400
 msgid "Capture failed"
-msgstr ""
+msgstr "चपेट में विफल होना"
 
 #: ViewFinderView.qml:405
 msgid ""
 "Replacing your external media, formatting it, or restarting the device might "
 "fix the problem."
 msgstr ""
+"आपके व्यक्तिगत मीडिया को बदलना, उसका फॉर्मेट करना या डिवाइस को रीस्टार्ट करने से "
+"समस्या ठीक हो सकती है।"
 
 #: ViewFinderView.qml:406
 msgid "Restarting your device might fix the problem."
-msgstr ""
+msgstr "पुनर्प्रारंभ करने पर आपका उपकरण समस्या को ठीक कर सकता है।"
 
 #: camera-app.qml:61
 msgid "Flash"
@@ -511,17 +593,17 @@ msgstr "प्रकाश व्यवस्था की स्थिति;�
 #: camera-app.qml:386
 #, qt-format
 msgid "<b>%1</b> photos taken today"
-msgstr ""
+msgstr "%1 फोटो लिए गए आज"
 
 #: camera-app.qml:387
 msgid "No photos taken today"
-msgstr ""
+msgstr "आज कोई फोटो नहीं लिया गया।"
 
 #: camera-app.qml:397
 #, qt-format
 msgid "<b>%1</b> videos recorded today"
-msgstr ""
+msgstr "विधि: 1 वीडियो रिकॉर्ड किए गए आज"
 
 #: camera-app.qml:398
 msgid "No videos recorded today"
-msgstr ""
+msgstr "आज कोई वीडियो रिकॉर्ड नहीं किया गया।"
