@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: lomiri-camera-app-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2025-06-28 18:47+0000\n"
+"PO-Revision-Date: 2026-02-20 16:28+0000\n"
 "Last-Translator: phmqXPD <phmq.xpd@gmail.com>\n"
-"Language-Team: Vietnamese <https://hosted.weblate.org/projects/lomiri/"
-"lomiri-camera-app/vi/>\n"
+"Language-Team: Vietnamese <https://hosted.weblate.org/projects/lomiri/lomiri-"
+"camera-app/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: lomiri-camera-app.desktop.in:4 lomiri-camera-app.desktop.in:6
 #: Information.qml:106
@@ -169,7 +169,7 @@ msgstr "sử dụng hiển thị AM/PM. AP sẽ được thay thế bằng 'AM' 
 
 #: AdvancedOptions.qml:168
 msgid "use am/pm display. ap will be replaced by either 'am' or 'pm'."
-msgstr "sử dụng hiển thị AM/PM. AP sẽ được thay thế bằng 'AM' hoặc 'PM'."
+msgstr "sử dụng hiển thị AM/PM. [ ap ] sẽ được thay thế bằng 'AM' hoặc 'PM'."
 
 #: AdvancedOptions.qml:169
 msgid "the timezone (for example 'CEST')"
@@ -352,7 +352,7 @@ msgstr "Không thể chia sẻ ảnh và video cùng lúc"
 
 #: UnableShareDialog.qml:30
 msgid "Ok"
-msgstr "Ô kê"
+msgstr "Ok"
 
 #: ViewFinderOverlay.qml:469 ViewFinderOverlay.qml:492
 #: ViewFinderOverlay.qml:520 ViewFinderOverlay.qml:543
