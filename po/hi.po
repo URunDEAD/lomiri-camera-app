@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2026-02-17 14:09+0000\n"
+"PO-Revision-Date: 2026-02-20 16:28+0000\n"
 "Last-Translator: Satyaakam Goswami <satyaakam@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/lomiri/lomiri-"
 "camera-app/hi/>\n"
@@ -78,15 +78,7 @@ msgstr "व्यवस्था"
 
 #: AdvancedOptions.qml:142
 msgid "Date formatting keywords"
-msgstr ""
-"दिनांक प्रारूप की विशेषताएं \n"
-"\n"
-"1. year - वर्ष \n"
-"2. month - महीना\n"
-"3. day - दिन\n"
-"4. AM/PM (12-hour clock) - सायंकाल (मध्याह्न)\n"
-"5. Century (for date range) - सदी\n"
-"6. Year of the century - सदी का वर्ष"
+msgstr "दिनांक स्वरूपण कीवर्ड"
 
 #: AdvancedOptions.qml:147
 msgid "the day as number without a leading zero (1 to 31)"
@@ -95,26 +87,12 @@ msgstr "दिनांक के संख्या के रूप में 
 #: AdvancedOptions.qml:148
 msgid "the day as number with a leading zero (01 to 31)"
 msgstr ""
-"दिनांक के रूप में (दिन और महीना) संख्या के साथ शुरुआत होती है (०१ से ३१ तक)\n"
-"\n"
-"(Note: In Hindi, the word for \"day\" is \"दिन\" and for \"month\" is \"महीना"
-"।)"
+"दिनांक के रूप में (दिन और महीना) संख्या के साथ शुरुआत होती है (०१ से ३१ तक)"
 
 #: AdvancedOptions.qml:149
 msgid "the abbreviated localized day name (e.g. 'Mon' to 'Sun')."
 msgstr ""
-"दिनांक की संक्षिप्त व्याख्या (सु. दिनाचे नाव: मंगळ, सो. दिनाचे नाव: सूर्य)\n"
-"\n"
-"Note: In Hindi, the days of the week are:\n"
-"\n"
-"मंगल (Mangal) - Monday\n"
-"सोम (Som) - Tuesday\n"
-"मंगल ( Mangal) - Wednesday is sometimes referred to as ‘मंगल’ but more "
-"commonly as  ‘भाद्र’\n"
-"गुरुवार (Guruvar) - Thursday\n"
-"फ्रेंच वाक्यांश ‘Sun’ used in English is often translated to सूर्य (Surya)\n"
-"शनि (Shani) - Friday\n"
-"शुक्रवार (Shukrawar) - Saturday"
+"स्थानीय भाषा में दिन के नाम का संक्षिप्त रूप (जैसे 'सोमवार' से 'रविवार' तक)।"
 
 #: AdvancedOptions.qml:150
 msgid "the long localized day name (e.g. 'Monday' to 'Sunday')."
@@ -135,7 +113,8 @@ msgstr "मास की संक्षिप्त स्थानीय न�
 
 #: AdvancedOptions.qml:154
 msgid "the long localized month name (e.g. 'January' to 'December')."
-msgstr "जानवर"
+msgstr ""
+"स्थानीय भाषा में बोले जाने वाले महीने के लंबे नाम (जैसे 'जनवरी' से 'दिसंबर' तक)।"
 
 #: AdvancedOptions.qml:155
 msgid "the year as two digit number (00 to 99)"
@@ -151,19 +130,7 @@ msgstr ""
 
 #: AdvancedOptions.qml:157
 msgid "the hour without a leading zero (0 to 23 or 1 to 12 if AM/PM display)"
-msgstr ""
-"समय के घंटे बिना नेवी शून्य (० से २३ या १ से १२ यदि एएम/पीएम प्रदर्शन होता है)\n"
-"\n"
-"Note: In Hindi, the word \"नेवी\" is not typically used. Instead, we use "
-"\"समय के घंटे\". I've translated it as per your request to keep English words "
-"for clarity.\n"
-"\n"
-"Alternatively, a more natural-sounding translation would be:\n"
-"\n"
-"समय के घंटे से शून्य (० से २३ या १ से १२ यदि एएम/पीएम प्रदर्शन होता है)\n"
-"\n"
-"This translates to \"the hour without a leading zero\" (० से २३ या १ से १२ यदि "
-"एएम/पीएम प्रदर्शन होता है) with a slight modification in the first sentence."
+msgstr "बिना शून्य के घंटे (0 से 23 तक या AM/PM डिस्प्ले होने पर 1 से 12 तक)"
 
 #: AdvancedOptions.qml:158
 msgid "the hour with a leading zero (00 to 23 or 01 to 12 if AM/PM display)"
