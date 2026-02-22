@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2026-02-20 16:28+0000\n"
+"PO-Revision-Date: 2026-02-28 06:09+0000\n"
 "Last-Translator: Satyaakam Goswami <satyaakam@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/lomiri/lomiri-"
 "camera-app/hi/>\n"
@@ -69,7 +69,7 @@ msgstr "के बारे में"
 
 #: AdvancedOptions.qml:66
 msgid "Add date stamp on captured images"
-msgstr "अपडेट करने की तारीख छवियों पर डालें।"
+msgstr "अपडेट करने की तारीख छवियों पर डालें"
 
 #. TRANSLATORS: this refers to the opacity  of date stamp added to captured images
 #: AdvancedOptions.qml:89
@@ -105,7 +105,7 @@ msgstr "माह की संख्या के रूप में (0 से
 
 #: AdvancedOptions.qml:152
 msgid "the month as number with a leading zero (01 to 12)"
-msgstr "मास की संख्या के साथ एक शीर्ष अंक (०१ से १२)।"
+msgstr "महीने को शून्य से शुरू होने वाली संख्या के रूप में लिखें (01 से 12 तक)"
 
 #: AdvancedOptions.qml:153
 msgid "the abbreviated localized month name (e.g. 'Jan' to 'Dec')."
@@ -135,9 +135,7 @@ msgstr "बिना शून्य के घंटे (0 से 23 तक य
 #: AdvancedOptions.qml:158
 msgid "the hour with a leading zero (00 to 23 or 01 to 12 if AM/PM display)"
 msgstr ""
-"गंतव्य समय (आठ दिनों का समय), जिसमें शामिल हैं: \n"
-"\n"
-"सुबह-शाम में संख्या एक से चार (01-04) और रात्रि में संख्या 0 से 9 तक।"
+"घंटे के आगे शून्य लगा हुआ (00 से 23 तक या AM/PM डिस्प्ले होने पर 01 से 12 तक)"
 
 #: AdvancedOptions.qml:159
 msgid "the hour without a leading zero (0 to 23, even with AM/PM display)"
