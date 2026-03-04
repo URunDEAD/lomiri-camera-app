@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2026-02-28 06:09+0000\n"
+"PO-Revision-Date: 2026-03-07 10:09+0000\n"
 "Last-Translator: Satyaakam Goswami <satyaakam@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/lomiri/lomiri-"
 "camera-app/hi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 "X-Launchpad-Export-Date: 2016-12-01 04:53+0000\n"
 
 #: lomiri-camera-app.desktop.in:4 lomiri-camera-app.desktop.in:6
@@ -139,35 +139,15 @@ msgstr ""
 
 #: AdvancedOptions.qml:159
 msgid "the hour without a leading zero (0 to 23, even with AM/PM display)"
-msgstr ""
-"अचानक समय (Achanik samay)\n"
-"\n"
-"or \n"
-"\n"
-"समय के बिना घंटा (Samay ke bina ghanta)\n"
-"\n"
-"or \n"
-"\n"
-"सामान्य घंटा प्रदर्शन (Samaantra ghanta pradarshan), जिसमें 00 से 23 तक होता है और "
-"AM/PM दिखाया जाता है।"
+msgstr "बिना अग्रणी शून्य के घंटा (0 से 23 तक, AM/PM डिस्प्ले के साथ भी)"
 
 #: AdvancedOptions.qml:160
 msgid "the hour with a leading zero (00 to 23, even with AM/PM display)"
-msgstr ""
-"चालिस मिनट (Thirty minutes)\n"
-"\n"
-"Note: In Hindi, 'चालिस' is used for thirty. If you want to use English "
-"words, the translation would be '30 मिनट'."
+msgstr "घंटे का आगे शून्य लगा हुआ (00 से 23 तक, AM/PM डिस्प्ले के साथ भी)"
 
 #: AdvancedOptions.qml:161
 msgid "the minute without a leading zero (0 to 59)"
-msgstr ""
-"मिनट के बिना शून्य से शुरू होने वाली एक मिनट (० तो ५९)\n"
-"\n"
-"Note: In Hindi, the word \"minute\" is directly translated as \"मिनट\" "
-"(minta). The phrase \"without a leading zero\" is not explicitly used in "
-"Hindi, so I used a more natural translation that implies the absence of a "
-"leading zero."
+msgstr "शून्य के बिना मिनट (0 से 59)"
 
 #: AdvancedOptions.qml:162
 msgid "the minute with a leading zero (00 to 59)"
@@ -179,7 +159,7 @@ msgstr "दूसरा बिना शीर्ष के जercero (0 से 
 
 #: AdvancedOptions.qml:164
 msgid "the second with a leading zero (00 to 59)"
-msgstr "दूसरा से शुरुआत होने वाला संख्या दशमलव में है (०० से ५९ तक)।"
+msgstr "दूसरा, जिसमें आगे शून्य लगा है (00 से 59 तक)"
 
 #: AdvancedOptions.qml:165
 msgid "the milliseconds without leading zeroes (0 to 999)"
@@ -199,9 +179,7 @@ msgstr ""
 
 #: AdvancedOptions.qml:168
 msgid "use am/pm display. ap will be replaced by either 'am' or 'pm'."
-msgstr ""
-"उपयोगकर्ता के लिए समय प्रदर्शन की व्यवस्था करें, जहां 'AP' शाम या सुबह (AM) होता है और "
-"इसकी जगह 'AM' या 'PM' हो सकता है।"
+msgstr "am/pm डिस्प्ले का उपयोग करें। ap को 'am' या 'pm' से बदल दिया जाएगा।"
 
 #: AdvancedOptions.qml:169
 msgid "the timezone (for example 'CEST')"
