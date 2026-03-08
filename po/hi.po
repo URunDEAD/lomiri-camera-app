@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2026-03-07 10:09+0000\n"
+"PO-Revision-Date: 2026-03-11 04:17+0000\n"
 "Last-Translator: Satyaakam Goswami <satyaakam@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/lomiri/lomiri-"
 "camera-app/hi/>\n"
@@ -358,7 +358,7 @@ msgstr "अनुपलब्ध नहीं है (Anupalabhā nahi hai)"
 
 #: UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr "अनुपलब्ध नहीं है फोटो और वीडियो एक साथ साझा करना।"
+msgstr "अनुपलब्ध नहीं है फोटो और वीडियो एक साथ साझा करना"
 
 #: UnableShareDialog.qml:30
 msgid "Ok"
@@ -420,8 +420,7 @@ msgstr "सीडी"
 
 #: ViewFinderOverlay.qml:651
 msgid "Save to SD Card"
-msgstr ""
-"ब्लू स्क्रीन ऑप्टिमाइज़ नहीं होने पर फोटो/वीडियो रिकॉर्डिंग की गुणवत्ता में कमी आ सकती है।"
+msgstr "एसडी कार्ड में सहेजें"
 
 #: ViewFinderOverlay.qml:656
 msgid "Save internally"
@@ -507,7 +506,7 @@ msgstr "कैमरा फ्लिप करें"
 
 #: camera-app.qml:66
 msgid "Front Facing;Back Facing"
-msgstr "सामने की ओर;पीछे  की ओर"
+msgstr "सामने की ओर;पीछे की ओर"
 
 #: camera-app.qml:69
 msgid "Shutter"
@@ -536,17 +535,17 @@ msgstr "प्रकाश व्यवस्था की स्थिति;�
 #: camera-app.qml:386
 #, qt-format
 msgid "<b>%1</b> photos taken today"
-msgstr "%1 फोटो लिए गए आज"
+msgstr "<b>%1</b> फोटो लिए गए आज"
 
 #: camera-app.qml:387
 msgid "No photos taken today"
-msgstr "आज कोई फोटो नहीं लिया गया।"
+msgstr "आज कोई फोटो नहीं लिया गया"
 
 #: camera-app.qml:397
 #, qt-format
 msgid "<b>%1</b> videos recorded today"
-msgstr "विधि: 1 वीडियो रिकॉर्ड किए गए आज"
+msgstr "<b>%1</b> वीडियो रिकॉर्ड किए गए आज"
 
 #: camera-app.qml:398
 msgid "No videos recorded today"
-msgstr "आज कोई वीडियो रिकॉर्ड नहीं किया गया।"
+msgstr "आज कोई वीडियो रिकॉर्ड नहीं किया गया"
