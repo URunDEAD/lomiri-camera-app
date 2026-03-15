@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2026-03-11 04:17+0000\n"
+"PO-Revision-Date: 2026-03-22 20:09+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
 "lomiri/lomiri-camera-app/en_GB/>\n"
@@ -35,26 +35,24 @@ msgstr "Photos;Videos;Capture;Shoot;Snapshot;Record"
 
 #: lomiri-camera-app.desktop.in:10
 msgid "lomiri-camera-app"
-msgstr ""
+msgstr "lomiri-camera-app"
 
 #: lomiri-barcode-reader-app.desktop.in:4
 #: lomiri-barcode-reader-app.desktop.in:6
 msgid "Barcode Reader"
-msgstr ""
+msgstr "Barcode Reader"
 
 #: lomiri-barcode-reader-app.desktop.in:5
-#, fuzzy
-#| msgid "Camera application"
 msgid "Barcode Reader application"
-msgstr "Camera application"
+msgstr "Barcode Reader application"
 
 #: lomiri-barcode-reader-app.desktop.in:7
 msgid "QR;Code;Reader"
-msgstr ""
+msgstr "QR;Code;Reader"
 
 #: lomiri-barcode-reader-app.desktop.in:10
 msgid "lomiri-barcode-reader-app"
-msgstr ""
+msgstr "lomiri-barcode-reader-app"
 
 #: AdvancedOptions.qml:23 PhotogridView.qml:69 SlideshowView.qml:77
 msgid "Settings"
@@ -62,7 +60,7 @@ msgstr "Settings"
 
 #: AdvancedOptions.qml:27
 msgid "Close"
-msgstr ""
+msgstr "Close"
 
 #: AdvancedOptions.qml:35 Information.qml:20 PhotogridView.qml:78
 #: SlideshowView.qml:86
@@ -199,11 +197,11 @@ msgstr "Opacity"
 
 #: AdvancedOptions.qml:346
 msgid "Blurred Overlay"
-msgstr ""
+msgstr "Blurred Overlay"
 
 #: AdvancedOptions.qml:367
 msgid "Only Blur Preview overlay"
-msgstr ""
+msgstr "Only Blur Preview overlay"
 
 #: DeleteDialog.qml:24
 msgid "Delete media?"
@@ -240,7 +238,7 @@ msgstr "Photo Roll"
 
 #: Information.qml:25
 msgid "Back"
-msgstr ""
+msgstr "Back"
 
 #: Information.qml:76
 msgid "Get the source"
@@ -282,7 +280,7 @@ msgstr "Copyright : %1"
 #: MediaInfoPopover.qml:19
 #, qt-format
 msgid "Exposure Time : %1"
-msgstr ""
+msgstr "Exposure Time : %1"
 
 #: MediaInfoPopover.qml:20
 #, qt-format
@@ -292,7 +290,7 @@ msgstr "F. Number : %1"
 #: MediaInfoPopover.qml:21
 #, qt-format
 msgid "Sub-File type : %1"
-msgstr ""
+msgstr "Sub-File type : %1"
 
 #: MediaInfoPopover.qml:43
 msgid "Media Information"
@@ -315,11 +313,11 @@ msgstr "With Flash : %1"
 
 #: MediaInfoPopover.qml:83
 msgid "Yes"
-msgstr ""
+msgstr "Yes"
 
 #: MediaInfoPopover.qml:83
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: NoSpaceHint.qml:33
 msgid "No space left on device, free up space to continue."
