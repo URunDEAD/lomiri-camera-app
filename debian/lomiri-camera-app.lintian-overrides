@@ -1,4 +1,1 @@
-camera-app: binary-without-manpage usr/bin/lomiri-camera-app
-camera-app: pkg-has-shlibs-control-file-but-no-actual-shared-libs
-camera-app: postinst-has-useless-call-to-ldconfig
-camera-app: postrm-has-useless-call-to-ldconfig
+no-manual-page [usr/bin/*]
