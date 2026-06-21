@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2025-05-18 15:49+0000\n"
+"PO-Revision-Date: 2026-06-23 14:01+0000\n"
 "Last-Translator: Ida Brenna <ida@larald.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-camera-app/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 "X-Launchpad-Export-Date: 2016-12-01 04:53+0000\n"
 
 #: lomiri-camera-app.desktop.in:4 lomiri-camera-app.desktop.in:6
@@ -355,7 +355,7 @@ msgstr "Klarer ikke å dele bilder og video samtidig"
 
 #: UnableShareDialog.qml:30
 msgid "Ok"
-msgstr "OK"
+msgstr "Ok"
 
 #: ViewFinderOverlay.qml:469 ViewFinderOverlay.qml:492
 #: ViewFinderOverlay.qml:520 ViewFinderOverlay.qml:543
