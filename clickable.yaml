@@ -12,3 +12,12 @@ dependencies_target:
 - qtquickcontrols2-5-dev
 - libexiv2-dev
 - libqzxing-dev
+
+# Bundle libexiv2.so.27 into the click, because the app is built in the
+# focal (20.04) framework container (exiv2 0.27), while the UT 24.04 base
+# image only ships libexiv2.so.28. Without this, the app fails to start with
+# "libexiv2.so.27: cannot open shared object file: No such file or directory".
+install_lib:
+- /usr/lib/${ARCH_TRIPLET}/libexiv2.so.0*
+- /usr/lib/${ARCH_TRIPLET}/libexiv2.so.27*
+
