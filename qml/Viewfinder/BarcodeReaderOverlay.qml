@@ -627,25 +627,37 @@ Item {
         }
 
         function isWifi(tagText) {
-            var text = tagText.trim()
-            return text.startsWith("WIFI:") && text.endsWith(";;");
+            const text = tagText.trim()
+            if (!text.startsWith("WIFI:") || !text.endsWith(";;"))
+                return false;
+
+            const parts = text.slice(5, -2).split(";");
+            return parts.some(part => part.startsWith("S:"));
+        }
+
+        function decodeWifiValue(value) {
+            try {
+                return decodeURIComponent(value);
+            } catch (e) {
+                return value;
+            }
         }
 
         function parseWifiData(text) {
             const wifiData = text.slice(5, -2);
             const parts = wifiData.split(";");
 
-            var ssid = "";
-            var password = "";
-            var securityType = "";
+            let ssid = "";
+            let password = "";
+            let securityType = "";
 
             for (const part of parts) {
                 if (part.startsWith("S:")) {
-                    ssid = part.slice(2);
+                    ssid = decodeWifiValue(part.slice(2));
                 } else if (part.startsWith("T:")) {
                     securityType = part.slice(2);
                 } else if (part.startsWith("P:")) {
-                    password = part.slice(2);
+                    password = decodeWifiValue(part.slice(2));
                 }
             }
 
@@ -735,12 +747,12 @@ Item {
                     buttonContainer.forceLayout()
                 }
                 onClicked: {
-                    var wifiData = tagDetailsOverlay.parseWifiData(viewFinderView.recentlyScannedTag)
+                    const wifiData = tagDetailsOverlay.parseWifiData(viewFinderView.recentlyScannedTag)
 
                     Qt.openUrlExternally("settings://system/wifi?ssid=%1&securityType=%2&password=%3"
-                        .arg(wifiData.ssid)
-                        .arg(wifiData.securityType)
-                        .arg(wifiData.password))
+                        .arg(encodeURIComponent(wifiData.ssid))
+                        .arg(encodeURIComponent(wifiData.securityType))
+                        .arg(encodeURIComponent(wifiData.password)))
                     tagDetailsOverlay.open = false
                 }
             }
