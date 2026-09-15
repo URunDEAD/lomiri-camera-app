@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2026-09-15 09:53+0000\n"
+"PO-Revision-Date: 2026-09-15 11:02+0000\n"
 "Last-Translator: Alagirisamy Rengaraj <radhaalagirisamy@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/lomiri/lomiri-"
 "camera-app/ta/>\n"
@@ -443,12 +443,12 @@ msgid ""
 "eject and insert it again might solve the issue, or you might need to format "
 "it."
 msgstr ""
-"வெளிப்புறச் சேமிப்பிடத்தில் எழுத முடியவில்லை. அதைக் கழற்றி, மீண்டும் செருகி முயற்சிக்கவும் "
-"இல்லையேல் அதை சீரமைக்கவும்."
+"உங்கள் வெளிப்புறச் சேமிப்பு ஊடகத்தில் எழுத முடியுமென்று தோன்றவில்லை. அதை வெளியேற்றி "
+"மீண்டும் உள்ளிட்டு முயற்சி செய்தால் சிக்கல் தீரலாம், இல்லையேல் நீங்கள் அதை வடிவமைக்க தேவைப்படலாம்."
 
 #: ViewFinderOverlay.qml:1253
 msgid "Cannot access camera"
-msgstr "நிழற்படக்கருவியை அனுக இயலவில்லை"
+msgstr "ஒளிப்படக்கருவியை அணுக இயலாது"
 
 #: ViewFinderOverlay.qml:1254
 msgid ""
@@ -457,88 +457,87 @@ msgid ""
 "\n"
 "If granting permission does not resolve this problem, reboot your device."
 msgstr ""
-"நிழற்பட வன்பொருளை அனுக செயலிக்கு அனுமதியில்லை அல்லது வேறெதோ சிக்கல் "
-"ஏற்பட்டுவிட்டது.\n"
+"ஒளிப்பட வன்பொருளை அணுக செயலிக்கு அனுமதியில்லை அல்லது மற்றொரு பிழை ஏற்பட்டுள்ளது.\n"
 "\n"
-"அனுமிதியளிப்பது இதைச் சரிசெய்யவில்லையெனில், சாதனத்தை மீள்துவக்குக."
+"அனுமதியளிப்பது இந்த சிக்கலை தீர்க்கவில்லையெனில், சாதனத்தை மீள்துவக்குக."
 
 #: ViewFinderOverlay.qml:1256
 msgid "Edit Permissions"
-msgstr "அனுமதிகளைத் திருத்துக"
+msgstr "அனுமதிகளைத் திருத்து"
 
 #: ViewFinderView.qml:400
 msgid "Capture failed"
-msgstr "நிழற்படப்பிடிப்பு தோல்வியுற்றது"
+msgstr "ஒளிப்படப்பிடிப்பு தோல்வியுற்றது"
 
 #: ViewFinderView.qml:405
 msgid ""
 "Replacing your external media, formatting it, or restarting the device might "
 "fix the problem."
 msgstr ""
-"வெளிப்புற ஊடகத்தை மாற்றுவதோ, சீரமைப்பதோ அல்லது சாதனத்தை மீள்துவக்குவதோ சிக்கலை "
-"சரிசெய்யலாம்."
+"வெளிப்புற ஊடகத்தை மாற்றுவதோ, அதை வடிவமைப்பதோ அல்லது சாதனத்தை மீள்துவக்குவதோ சிக்கலை "
+"தீர்க்கலாம்."
 
 #: ViewFinderView.qml:406
 msgid "Restarting your device might fix the problem."
-msgstr "சாதனத்தை மீள்துவக்குவது சிக்கலை சரி செய்யலாம்."
+msgstr "சாதனத்தை மீள்துவக்குவது ஒரு வேளை சிக்கலை தீர்க்கலாம்."
 
 #: camera-app.qml:61
 msgid "Flash"
-msgstr "மின்ஒளி"
+msgstr "ஒளிமின்னல்"
 
 #: camera-app.qml:62
 msgid "Light;Dark"
-msgstr "வெளிச்சம்; இருட்டு"
+msgstr "வெளிர்; அடர்"
 
 #: camera-app.qml:65
 msgid "Flip Camera"
-msgstr "நிழற்பட கருவியை புரட்டு"
+msgstr "ஒளிப்படக் கருவியை புரட்டு"
 
 #: camera-app.qml:66
 msgid "Front Facing;Back Facing"
-msgstr "முன் நாேக்கிய; பின் நாேக்கிய"
+msgstr "முன் நாேக்கியது; பின் நாேக்கியது"
 
 #: camera-app.qml:69
 msgid "Shutter"
-msgstr "திரை"
+msgstr "மூடி"
 
 #: camera-app.qml:70
 msgid "Take a Photo;Snap;Record"
-msgstr "படம் பிடி;படமெடு; படப்பதிவுசெய்"
+msgstr "ஒரு ஒளிப்படம் எடு;படம்பிடி; படப்பதிவுசெய்"
 
 #: camera-app.qml:73
 msgid "Mode"
-msgstr "வகை"
+msgstr "முறை"
 
 #: camera-app.qml:74
 msgid "Stills;Video"
-msgstr "நிழற்படங்கள்; வீடியோ"
+msgstr "ஒளிப்படங்கள்; காணொலி"
 
 #: camera-app.qml:78
 msgid "White Balance"
-msgstr "வெள்ளைச் சமன்"
+msgstr "வெள்ளைச் சமன்பாடு"
 
 #: camera-app.qml:79
 msgid "Lighting Condition;Day;Cloudy;Inside"
-msgstr "வெளிச்ச நிலை; பகல்; மேகமூட்டம்; கட்டித்தினுள்"
+msgstr "வெளிச்ச நிலை; பகல்; மேகமூட்டம்; உள்ளரங்கு"
 
 #: camera-app.qml:386
 #, qt-format
 msgid "<b>%1</b> photos taken today"
-msgstr "இன்று <b>%1</b> நிழற்படங்கள் எடுக்கப்பட்டது"
+msgstr "<b>%1</b> ஒளிப்படங்கள் இன்று எடுக்கப்பட்டது"
 
 #: camera-app.qml:387
 msgid "No photos taken today"
-msgstr "இன்று நிழற்படங்கள் எதுவும் எடுக்கப்படவில்லை"
+msgstr "இன்று ஒளிப்படங்கள் எதுவும் எடுக்கப்படவில்லை"
 
 #: camera-app.qml:397
 #, qt-format
 msgid "<b>%1</b> videos recorded today"
-msgstr "இன்று <b>%1</b> ஒளித்தோற்றங்கள் பதிவுசெய்யப்பட்டன"
+msgstr "<b>%1</b> காணொலிகள் இன்று பதிவுசெய்யப்பட்டன"
 
 #: camera-app.qml:398
 msgid "No videos recorded today"
-msgstr "இன்று ஒளித்தோற்றங்கள் எதுவும் பதிவுசெய்யப்படவில்லை"
+msgstr "இன்று காணொலிகள் எதுவும் பதிவுசெய்யப்படவில்லை"
 
 #~ msgid "Gallery"
 #~ msgstr "படத்தொகுப்பு"
