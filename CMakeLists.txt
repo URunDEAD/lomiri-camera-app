@@ -62,7 +62,6 @@ if(NOT GETTEXT_FOUND)
   message(FATAL_ERROR "Could not find gettext")
 endif(NOT GETTEXT_FOUND)
 
-option(INSTALL_TESTS "Install the tests on make install" off)
 option(CLICK_MODE "Installs to a contained location" on)
 set(CLICK_VERSION "${PROJECT_VERSION}"
     CACHE STRING "Version of built Click. Meaningful only in Click mode.")
