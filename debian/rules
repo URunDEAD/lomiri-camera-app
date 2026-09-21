@@ -10,7 +10,7 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 	dh $@
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DCLICK_MODE=OFF -DINSTALL_TESTS=ON
+	dh_auto_configure -- -DCLICK_MODE=OFF
 
 get-orig-source:
 	uscan --noconf --force-download --rename --download-current-version --destdir=..
