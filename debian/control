@@ -9,8 +9,6 @@ Build-Depends: cmake,
                libgl1-mesa-dev | libgl1-dev,
                libgles2-mesa-dev | libgles2-dev,
                pkg-config,
-               python3:any,
-               python3-flake8 (>= 2.2.2-1ubuntu4) | python3-flake8:native,
                qtbase5-dev,
                qtquickcontrols2-5-dev,
                qtdeclarative5-dev,
@@ -58,21 +56,3 @@ Depends: cameraplugin-aal [armel armhf],
 Description: Camera application
  An application to take pictures, videos and scan barcodes with device
  camera(s).
-
-Package: lomiri-camera-app-autopilot
-# architecture is not "all", as we set the fake plugin as dependency
-Architecture: i386 amd64 armhf
-Depends: lomiri-camera-app (>= ${binary:Version}),
-         cameraplugin-fake [!armel !armhf],
-         libautopilot-qt (>= 1.4),
-         libqt5test5,
-         libqt5widgets5,
-         lomiri-autopilot,
-         ${misc:Depends},
-         ${shlibs:Depends},
-         python3-autopilot,
-         python3-wand,
-         python3-mediainfodll,
-         python3-fixtures,
-Description: Test package for lomiri-camera-app
- Autopilot tests for the lomiri-camera-app package

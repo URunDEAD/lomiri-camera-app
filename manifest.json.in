@@ -20,14 +20,5 @@
     "version": "@CLICK_VERSION@",
     "migrations": {
         "old-name": "com.ubuntu.camera"
-    },
-    "x-test": {
-        "autopilot": {
-            "autopilot_module": "@AUTOPILOT_DIR@",
-            "depends": [
-                "python3-wand",
-                "python3-mediainfodll"
-            ]
-        }
     }
 }

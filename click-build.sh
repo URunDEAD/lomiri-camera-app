@@ -8,7 +8,7 @@ CLICKARCH=armhf
 rm -rf $CLICKARCH-build
 mkdir $CLICKARCH-build
 cd $CLICKARCH-build
-cmake .. -DINSTALL_TESTS=off -DCLICK_MODE=on \
+cmake .. -DCLICK_MODE=ON \
 	-DREVNO=$(cd ..; bzr revno) \
 	-DSOURCE="$SOURCE"
 make DESTDIR=../package install
