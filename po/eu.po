@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: camera-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 10:34+0000\n"
-"PO-Revision-Date: 2026-05-01 16:09+0000\n"
-"Last-Translator: \"Хмеляускас Александр (JasonWalt Bab@)\" "
-"<mardimusa8@gmail.com>\n"
+"PO-Revision-Date: 2026-10-02 22:00+0000\n"
+"Last-Translator: aimar orbe <aimar.orbe@ehu.eus>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/lomiri/lomiri-"
 "camera-app/eu/>\n"
 "Language: eu\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.10\n"
 "X-Launchpad-Export-Date: 2016-12-01 04:53+0000\n"
 
 #: lomiri-camera-app.desktop.in:4 lomiri-camera-app.desktop.in:6
@@ -90,20 +89,17 @@ msgid "the day as number with a leading zero (01 to 31)"
 msgstr "eguna zenbaki gisa aurreko zeroarekin (01etik 31ra)"
 
 #: AdvancedOptions.qml:149
-#, fuzzy
 msgid "the abbreviated localized day name (e.g. 'Mon' to 'Sun')."
 msgstr "egunaren izen lokalizatu laburtua (adibidez, 'Asl' - 'Ig')."
 
 #: AdvancedOptions.qml:150
-#, fuzzy
 msgid "the long localized day name (e.g. 'Monday' to 'Sunday')."
 msgstr ""
-"Lokalizatutako egunaren izen luzea (adibidez, \"astelehena\" eta \"igandea\")"
-"."
+"egunaren izen lokalizatu luzea (adibidez, \"astelehena\" eta \"igandea\")."
 
 #: AdvancedOptions.qml:151
 msgid "the month as number without a leading zero (1 to 12)"
-msgstr ""
+msgstr "hilabetea zenbaki bezala aurreko zerorik gabe (1etik 12ra)"
 
 #: AdvancedOptions.qml:152
 msgid "the month as number with a leading zero (01 to 12)"
@@ -111,100 +107,105 @@ msgstr "hilabetea zenbakia bezala aurreko zeroarekin (01etik 12ra)"
 
 #: AdvancedOptions.qml:153
 msgid "the abbreviated localized month name (e.g. 'Jan' to 'Dec')."
-msgstr ""
+msgstr "hilabetearen izen lokalizatu laburtua (adib. 'Urt'-etik 'Abe'-ra)."
 
 #: AdvancedOptions.qml:154
 msgid "the long localized month name (e.g. 'January' to 'December')."
 msgstr ""
+"hilabetearen izen lokalizatu luzea (adib. 'Urtarrila'-tik 'Abendua'-ra)."
 
 #: AdvancedOptions.qml:155
 msgid "the year as two digit number (00 to 99)"
-msgstr ""
+msgstr "urtea bi zifrako zenbaki bezala (00tik 99ra)"
 
 #: AdvancedOptions.qml:156
 msgid ""
 "the year as four digit number. If the year is negative, a minus sign is "
 "prepended in addition."
 msgstr ""
+"urtea lau zifrako zenbaki bezala. Urtea negatiboa baldin bada, aurretik ikur "
+"negatiboa kokatzen da."
 
 #: AdvancedOptions.qml:157
 msgid "the hour without a leading zero (0 to 23 or 1 to 12 if AM/PM display)"
 msgstr ""
+"ordua aurreko zerorik gabe (0tik 23ra edo 1etik 12ra AM/PM adieraziz gero)"
 
 #: AdvancedOptions.qml:158
 msgid "the hour with a leading zero (00 to 23 or 01 to 12 if AM/PM display)"
 msgstr ""
+"ordua aurreko zeroarekin (00tik 23ra edo 01etik 12ra AM/PM adieraziz gero)"
 
 #: AdvancedOptions.qml:159
 msgid "the hour without a leading zero (0 to 23, even with AM/PM display)"
-msgstr ""
+msgstr "ordua aurreko zerorik gabe (0tik 23ra AM/PM adierazita ere)"
 
 #: AdvancedOptions.qml:160
 msgid "the hour with a leading zero (00 to 23, even with AM/PM display)"
-msgstr ""
+msgstr "ordua aurreko zeroarekin (00tik 23ra AM/PM adierazita ere)"
 
 #: AdvancedOptions.qml:161
 msgid "the minute without a leading zero (0 to 59)"
-msgstr ""
+msgstr "minutua aurreko zerorik gabe (0tik 59ra)"
 
 #: AdvancedOptions.qml:162
 msgid "the minute with a leading zero (00 to 59)"
-msgstr ""
+msgstr "minutua aurreko zeroarekin (00tik 59ra)"
 
 #: AdvancedOptions.qml:163
 msgid "the second without a leading zero (0 to 59)"
-msgstr ""
+msgstr "segundua aurreko zerorik gabe (0tik 59ra)"
 
 #: AdvancedOptions.qml:164
 msgid "the second with a leading zero (00 to 59)"
-msgstr ""
+msgstr "segundua aurreko zeroarekin (00tik 59ra)"
 
 #: AdvancedOptions.qml:165
 msgid "the milliseconds without leading zeroes (0 to 999)"
-msgstr ""
+msgstr "milisegunduak aurreko zerorik gabe (0tik 999ra)"
 
 #: AdvancedOptions.qml:166
 msgid "the milliseconds with leading zeroes (000 to 999)"
-msgstr ""
+msgstr "milisegunduak aurreko zeroekin (000tik 999ra)"
 
 #: AdvancedOptions.qml:167
 msgid "use AM/PM display. AP will be replaced by either 'AM' or 'PM'."
-msgstr ""
+msgstr "erabili AM/PM. AP, 'AM' edo 'PM'rekin ordezkatuko da."
 
 #: AdvancedOptions.qml:168
 msgid "use am/pm display. ap will be replaced by either 'am' or 'pm'."
-msgstr ""
+msgstr "erabili am/pm. ap, 'am' edo 'pm'rekin ordezkatuko da."
 
 #: AdvancedOptions.qml:169
 msgid "the timezone (for example 'CEST')"
-msgstr ""
+msgstr "ordu-eremua (adibidez 'CEST'j"
 
 #: AdvancedOptions.qml:178
 msgid "Add to Format"
-msgstr ""
+msgstr "Formatura gehitu"
 
 #. TRANSLATORS: this refers to the color of date stamp added to captured images
 #: AdvancedOptions.qml:209
 msgid "Color"
-msgstr "Kolorez"
+msgstr "Kolorea"
 
 #. TRANSLATORS: this refers to the alignment of date stamp within captured images (bottom left, top right,etc..)
 #: AdvancedOptions.qml:278
 msgid "Alignment"
-msgstr ""
+msgstr "Lerrokatzea"
 
 #. TRANSLATORS: this refers to the opacity  of date stamp added to captured images
 #: AdvancedOptions.qml:323
 msgid "Opacity"
-msgstr ""
+msgstr "Opakutasuna"
 
 #: AdvancedOptions.qml:346
 msgid "Blurred Overlay"
-msgstr ""
+msgstr "Gainezarpen lausoa"
 
 #: AdvancedOptions.qml:367
 msgid "Only Blur Preview overlay"
-msgstr ""
+msgstr "Aurrebistaren gainezarpen lausoa bakarrik"
 
 #: DeleteDialog.qml:24
 msgid "Delete media?"
@@ -241,7 +242,7 @@ msgstr "Argazki-filma"
 
 #: Information.qml:25
 msgid "Back"
-msgstr ""
+msgstr "Atzera"
 
 #: Information.qml:76
 msgid "Get the source"
@@ -258,70 +259,69 @@ msgstr "Itzultzen lagundu"
 #: MediaInfoPopover.qml:14
 #, qt-format
 msgid "Width : %1"
-msgstr ""
+msgstr "Zabalera: %1"
 
 #: MediaInfoPopover.qml:15
 #, qt-format
 msgid "Height : %1"
-msgstr ""
+msgstr "Altuera: %1"
 
 #: MediaInfoPopover.qml:16
 #, qt-format
 msgid "Date : %1"
-msgstr ""
+msgstr "Data: %1"
 
 #: MediaInfoPopover.qml:17
 #, qt-format
 msgid "Camera Model : %1"
-msgstr ""
+msgstr "Kamera-modeloa: %1"
 
 #: MediaInfoPopover.qml:18
 #, qt-format
 msgid "Copyright : %1"
-msgstr ""
+msgstr "Egile-eskubideak: %1"
 
 #: MediaInfoPopover.qml:19
 #, qt-format
 msgid "Exposure Time : %1"
-msgstr ""
+msgstr "Esposizio-denbora: %1"
 
 #: MediaInfoPopover.qml:20
 #, qt-format
 msgid "F. Number : %1"
-msgstr ""
+msgstr "F. Zenbakia: %1"
 
 #: MediaInfoPopover.qml:21
 #, qt-format
 msgid "Sub-File type : %1"
-msgstr ""
+msgstr "Azpifitxategi mota: %1"
 
 #: MediaInfoPopover.qml:43
-#, fuzzy
 msgid "Media Information"
-msgstr "Aplikazioaren informazioa"
+msgstr "Euskarriaren informazioa"
 
 #: MediaInfoPopover.qml:48
 #, qt-format
 msgid "Name : %1"
-msgstr ""
+msgstr "Izena: %1"
 
 #: MediaInfoPopover.qml:51
 #, qt-format
 msgid "Type : %1"
-msgstr ""
+msgstr "Mota: %1"
 
 #: MediaInfoPopover.qml:83
 #, qt-format
 msgid "With Flash : %1"
-msgstr ""
+msgstr "Flasharekin: %1"
 
 #: MediaInfoPopover.qml:83
 msgid "Yes"
-msgstr ""
+msgstr "Bai"
 
 #: MediaInfoPopover.qml:83
 msgid "No"
-msgstr ""
+msgstr "Ez"
 
 #: NoSpaceHint.qml:33
 msgid "No space left on device, free up space to continue."
@@ -337,16 +337,15 @@ msgstr "Partekatu"
 
 #: SlideshowView.qml:62
 msgid "Image Info"
-msgstr ""
+msgstr "Irudiaren informazioa"
 
 #: SlideshowView.qml:98
 msgid "Edit"
 msgstr "Editatu"
 
 #: SlideshowView.qml:477
-#, fuzzy
 msgid "Back to Photo roll"
-msgstr "Argazki-filma"
+msgstr "Argazki-filmara bueltatu"
 
 #: UnableShareDialog.qml:25
 msgid "Unable to share"
@@ -391,10 +390,9 @@ msgstr "15 segundo"
 
 #: ViewFinderOverlay.qml:595
 msgid "Fine Quality"
-msgstr "Kalitate altua"
+msgstr "Kalitate bikaina"
 
 #: ViewFinderOverlay.qml:600
-#, fuzzy
 msgid "High Quality"
 msgstr "Kalitate altua"
 
@@ -421,7 +419,7 @@ msgstr "Gorde barnean"
 
 #: ViewFinderOverlay.qml:700
 msgid "Vibrate"
-msgstr ""
+msgstr "Dardar egin"
 
 #: ViewFinderOverlay.qml:1200
 msgid "Low storage space"
@@ -437,7 +435,7 @@ msgstr ""
 
 #: ViewFinderOverlay.qml:1214
 msgid "External storage not writeable"
-msgstr ""
+msgstr "Kanpoko biltegiratzea ez da idazgarria"
 
 #: ViewFinderOverlay.qml:1215
 msgid ""
@@ -445,10 +443,13 @@ msgid ""
 "eject and insert it again might solve the issue, or you might need to format "
 "it."
 msgstr ""
+"Badirudi ezinezkoa dela zure kanpoko biltegiratzean idaztea. Saia zaitez "
+"ateratzen eta berriro sartzen arazoa konpontzeko, edo agian formateatu "
+"beharko duzu."
 
 #: ViewFinderOverlay.qml:1253
 msgid "Cannot access camera"
-msgstr ""
+msgstr "Ezin da kamera atzitu"
 
 #: ViewFinderOverlay.qml:1254
 msgid ""
@@ -457,24 +458,30 @@ msgid ""
 "\n"
 "If granting permission does not resolve this problem, reboot your device."
 msgstr ""
+"Kamera aplikazioak ez du baimenik kamera hardwarea atzitzeko edo beste "
+"erroreren bat gertatu da\n"
+"\n"
+"Baimena emateak arazoa konpontzen ezbaldin badu, gailua berrabiarazi ezazu."
 
 #: ViewFinderOverlay.qml:1256
 msgid "Edit Permissions"
-msgstr ""
+msgstr "Baimenak editatu"
 
 #: ViewFinderView.qml:400
 msgid "Capture failed"
-msgstr ""
+msgstr "Atzitzeak huts egin du"
 
 #: ViewFinderView.qml:405
 msgid ""
 "Replacing your external media, formatting it, or restarting the device might "
 "fix the problem."
 msgstr ""
+"Zure kanpoko euskarria aldatu edo formateatzeak, edo gailua berrabiarazteak "
+"arazoa konpon lezake."
 
 #: ViewFinderView.qml:406
 msgid "Restarting your device might fix the problem."
-msgstr ""
+msgstr "Zure gailua berrabiarazteak arazoa konpon lezake."
 
 #: camera-app.qml:61
 msgid "Flash"
