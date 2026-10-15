@@ -18,7 +18,6 @@ import QtQuick 2.12
 import QtQuick.Window 2.2
 import QtMultimedia 5.0
 import Lomiri.Components 1.3
-import Lomiri.Action 1.1 as LomiriActions
 import UserMetrics 0.1
 import Lomiri.Content 1.3
 import CameraApp 0.1
@@ -57,36 +56,6 @@ Window {
 
     function exitFullScreen() {
         main.visibility = Window.Windowed;
-    }
-
-    LomiriActions.ActionManager {
-        actions: [
-            LomiriActions.Action {
-                text: i18n.tr("Flash")
-                keywords: i18n.tr("Light;Dark")
-            },
-            LomiriActions.Action {
-                text: i18n.tr("Flip Camera")
-                keywords: i18n.tr("Front Facing;Back Facing")
-            },
-            LomiriActions.Action {
-                text: i18n.tr("Shutter")
-                keywords: i18n.tr("Take a Photo;Snap;Record")
-            },
-            LomiriActions.Action {
-                text: i18n.tr("Mode")
-                keywords: i18n.tr("Stills;Video")
-                enabled: false
-            },
-            LomiriActions.Action {
-                text: i18n.tr("White Balance")
-                keywords: i18n.tr("Lighting Condition;Day;Cloudy;Inside")
-            }
-        ]
-
-        onQuit: {
-            Qt.quit()
-        }
     }
 
     Component.onCompleted: {
