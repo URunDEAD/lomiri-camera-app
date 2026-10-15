@@ -23,54 +23,82 @@ variables:
     DOCKER_DRIVER: overlay2
 
 .armhf: &armhf
-    variables:
-        ARCH: "armhf"
-        ARCH_TRIPLET: "arm-linux-gnueabihf"
+    ARCH: "armhf"
+    ARCH_TRIPLET: "arm-linux-gnueabihf"
 
 .arm64: &arm64
-    variables:
-        ARCH: "arm64"
-        ARCH_TRIPLET: "aarch64-linux-gnu"
+    ARCH: "arm64"
+    ARCH_TRIPLET: "aarch64-linux-gnu"
 
 .amd64: &amd64
-    variables:
-        ARCH: "amd64"
-        ARCH_TRIPLET: "x86_64-linux-gnu"
+    ARCH: "amd64"
+    ARCH_TRIPLET: "x86_64-linux-gnu"
+
+# clickable base image versions to build and publish. To add another one
+# (e.g. a future ut26.04-2.x), just append it to this list.
+.versions: &versions
+    - "20.04"
+    - "ut26.04-1.x"
+
+# Derive the click framework from the base image version, so that the
+# @CLICK_FRAMEWORK@ and @APPARMOR_POLICY@ placeholders get filled in by
+# clickable: 20.04 -> ubuntu-sdk-20.04, utXX.YY-Z.x -> ubuntu-touch-XX.YY-Z.x
+.framework: &framework
+    - 'case "$VERSION" in ut*) export CLICKABLE_FRAMEWORK="ubuntu-touch-${VERSION#ut}" ;; *) export CLICKABLE_FRAMEWORK="ubuntu-sdk-$VERSION" ;; esac'
 
 .build:
-    image: "clickable/ci-20.04-$ARCH"
+    image: "clickable/ci-$VERSION-$ARCH"
     stage: build
+    before_script: *framework
     script: 'clickable build --clean --arch $ARCH --accept-review-errors'
     artifacts:
         paths:
             - "build/$ARCH_TRIPLET/app"
         expire_in: 1 week
 
-build-armhf:
-    <<: *armhf
+build:
     extends: .build
-
-build-arm64:
-    <<: *arm64
-    extends: .build
-
-build-amd64:
-    <<: *amd64
-    extends: .build
+    parallel:
+        matrix:
+            - <<: *armhf
+              VERSION: *versions
+            - <<: *arm64
+              VERSION: *versions
+            - <<: *amd64
+              VERSION: *versions
 
 publish:
     stage: publish
-    image: "clickable/ci-20.04-armhf"
+    image: "clickable/ci-$VERSION-armhf"
     rules:
         - if: $CI_COMMIT_TAG
+    before_script: *framework
+    parallel:
+        matrix:
+            - VERSION: *versions
     script:
         - 'clickable publish "$CI_COMMIT_MESSAGE"'
         - 'clickable publish --arch arm64'
         - 'clickable publish --arch amd64'
-    dependencies:
-        - build-armhf
-        - build-arm64
-        - build-amd64
+    # Pull in just the 3 arch instances of the build matrix that match this
+    # publish job's own VERSION, so each publish instance only ever sees
+    # one framework's .click files.
+    needs:
+        - job: build
+          parallel:
+            matrix:
+                - <<: *armhf
+                  VERSION: "$[[ matrix.VERSION ]]"
+        - job: build
+          parallel:
+            matrix:
+                - <<: *arm64
+                  VERSION: "$[[ matrix.VERSION ]]"
+        - job: build
+          parallel:
+            matrix:
+                - <<: *amd64
+                  VERSION: "$[[ matrix.VERSION ]]"
     artifacts:
         paths:
             - build/arm-linux-gnueabihf/app/*.click
