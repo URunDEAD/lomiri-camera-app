@@ -11,7 +11,7 @@
         "location",
         "sensors"
     ],
-    "policy_version": 20.04,
+    "policy_version": "@APPARMOR_POLICY@",
     "read_path": [
         "@{PROC}/*/mounts",
         "/dev/disk/by-label/"

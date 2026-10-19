@@ -1,6 +1,6 @@
 {
     "description": "An application to take pictures, videos and scan barcodes with the device cameras",
-    "framework": "ubuntu-sdk-20.04",
+    "framework": "@CLICK_FRAMEWORK@",
     "architecture": "@CLICK_ARCH@",
     "hooks": {
         "camera": {
