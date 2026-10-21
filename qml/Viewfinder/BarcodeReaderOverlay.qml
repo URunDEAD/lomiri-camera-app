@@ -626,9 +626,49 @@ Item {
             return ""
         }
 
+        function isWifi(tagText) {
+            const text = tagText.trim()
+            if (!text.startsWith("WIFI:") || !text.endsWith(";;"))
+                return false;
+
+            const parts = text.slice(5, -2).split(";");
+            return parts.some(part => part.startsWith("S:"));
+        }
+
+        function decodeWifiValue(value) {
+            try {
+                return decodeURIComponent(value);
+            } catch (e) {
+                return value;
+            }
+        }
+
+        function parseWifiData(text) {
+            const wifiData = text.slice(5, -2);
+            const parts = wifiData.split(";");
+
+            let ssid = "";
+            let password = "";
+            let securityType = "";
+
+            for (const part of parts) {
+                if (part.startsWith("S:")) {
+                    ssid = decodeWifiValue(part.slice(2));
+                } else if (part.startsWith("T:")) {
+                    securityType = part.slice(2);
+                } else if (part.startsWith("P:")) {
+                    password = decodeWifiValue(part.slice(2));
+                }
+            }
+
+            return { ssid, password, securityType };
+        }
+
         function displayText(tagText) {
             if (isVCard(tagText))
                 return vCardText(tagText)
+            if (isWifi(tagText))
+                return i18n.tr("Connect to Wifi Network '%1'".arg(parseWifiData(tagText).ssid))
             return tagText
         }
 
@@ -693,6 +733,26 @@ Item {
                     qrTagPicker.contentType = ContentType.Contacts
                     qrTagPicker.stringToSend = viewFinderView.recentlyScannedTag
                     qrTagPicker.visible = true
+                    tagDetailsOverlay.open = false
+                }
+            }
+
+            CircleButton {
+                id: addWifiButton
+                iconName: "wifi-full"
+                automaticOrientation: false
+                anchors.verticalCenter: parent.verticalCenter
+                visible: tagDetailsOverlay.isWifi(viewFinderView.recentlyScannedTag) && tagDetailsOverlay.parseWifiData(viewFinderView.recentlyScannedTag)
+                onVisibleChanged: {
+                    buttonContainer.forceLayout()
+                }
+                onClicked: {
+                    const wifiData = tagDetailsOverlay.parseWifiData(viewFinderView.recentlyScannedTag)
+
+                    Qt.openUrlExternally("settings://system/wifi?ssid=%1&securityType=%2&password=%3"
+                        .arg(encodeURIComponent(wifiData.ssid))
+                        .arg(encodeURIComponent(wifiData.securityType))
+                        .arg(encodeURIComponent(wifiData.password)))
                     tagDetailsOverlay.open = false
                 }
             }
