@@ -1,6 +1,252 @@
+2026-10-21 Mike Gabriel
+
+        * Release 4.2.0 (HEAD -> main, tag: v4.2.0)
+
+2026-10-21 Marius Gripsgard
+
+        * Merge branch 'parsing_wifi' into 'main' (bfc5fe3)
+
+2026-09-05 Adam Havelka
+
+        * code adjustments (97a95d7)
+
+2025-07-18 Adam Havelka
+
+        * parameter T is named securityType (ef25c09)
+
+2025-06-09 Adam Havelka
+
+        * BarcodeReaderOverlay: change icon, replace scanned text with the
+          message (58daf71)
+
+2026-10-19 Marius Gripsgard
+
+        * Merge branch 'personal/notkit/ut26.04-ci' into 'main' (b390a0a)
+
+2026-10-15 TheKit
+
+        * Drop unused Lomiri.Action HUD actions (f3f4072)
+        * CI: build and publish against multiple clickable base image
+          versions (e26db5e)
+        * Revert "bundle libexiv2.so.27 into the click, since 26.04 only
+          ships libexiv2.so.28" (7ba8279)
+
+2026-10-01 aimar orbe
+
+        * Translated using Weblate (Basque) (2672c23)
+
+2026-09-24 Mike Gabriel
+
+        * Merge branch 'personal/jbicha/bye-autopilot' into 'main' (156e053)
+
+2026-09-21 Jeremy Bícha
+
+        * debian: Stop building lomiri-camera-app-autopilot (91d1e29)
+        * tests: Remove autopilot tests (8326718)
+
+2026-09-15 Alagirisamy Rengaraj
+
+        * Translated using Weblate (Tamil) (1eee2f2)
+        * Translated using Weblate (Tamil) (921b2ff)
+
+2026-07-06 Mike Gabriel
+
+        * Merge branch 'main' into 'main' (0581b0c)
+
+2026-07-04 Lukas
+
+        * bundle libexiv2.so.27 into the click, since 26.04 only ships
+          libexiv2.so.28 (f72bcf4)
+
+2026-06-16 Serhii Horichenko
+
+        * Translated using Weblate (Ukrainian) (c757800)
+
+2026-06-21 Ida Brenna
+
+        * Translated using Weblate (Norwegian Bokmål) (57680ec)
+
+2026-05-11 Mike Gabriel
+
+        * Merge branch 'personal/jbicha/debian-sync-20260508' into 'main'
+          (1d9caba)
+
+2026-05-08 Jeremy Bícha
+
+        * debian: Sync with Debian (0dba361)
+
+2026-05-05 Alyaksandr Koshal
+
+        * Translated using Weblate (Belarusian) (de4a6d3)
+
+2026-05-07 Walter Garcia-Fontes
+
+        * Translated using Weblate (Catalan) (8f65bd3)
+
+2026-04-24 Хмеляускас Александр (JasonWalt Bab@)
+
+        * Translated using Weblate (Russian) (add15d1)
+        * Translated using Weblate (Basque) (2fae05c)
+
+2026-03-15 Andi Chandler
+
+        * Translated using Weblate (English (United Kingdom)) (d0b3f63)
+
+2026-03-09 Andi Chandler
+
+        * Translated using Weblate (English (United Kingdom)) (efd09f1)
+
+2026-03-08 Satyaakam Goswami
+
+        * Translated using Weblate (Hindi) (319c0bc)
+
+2026-03-04 Satyaakam Goswami
+
+        * Translated using Weblate (Hindi) (9bdc807)
+
+2026-02-22 Satyaakam Goswami
+
+        * Translated using Weblate (Hindi) (0c3fb48)
+
+2026-02-27 Steve
+
+        * Translated using Weblate (French) (23e2a94)
+
+2026-02-20 Satyaakam Goswami
+
+        * Translated using Weblate (Hindi) (95b24d4)
+
+2026-02-20 phmqXPD
+
+        * Translated using Weblate (Vietnamese) (f37e316)
+
+2026-02-10 Хмеляускас Александр (JasonWalt Bab@)
+
+        * Translated using Weblate (Basque) (091caa4)
+
+2026-02-14 Satyaakam Goswami
+
+        * Translated using Weblate (Hindi) (0b739d8)
+
+2026-02-03 Midrielen
+
+        * Translated using Weblate (Finnish) (5443958)
+
+2026-01-31 Daniel Wiik
+
+        * Translated using Weblate (Swedish) (b365aa0)
+
+2026-01-25 BoneNI
+
+        * Translated using Weblate (Lao) (723f06c)
+
+2026-01-19 Maciej Sopyło
+
+        * Merge branch 'fixcoord' into 'main' (5cbe6e8)
+
+2026-01-19 Jozef Mlich
+
+        * Fix incorrect GPS position in EXIF (bb963b7)
+
+2025-12-19 Temuri Doghonadze
+
+        * Translated using Weblate (Georgian) (fb68e74)
+
+2025-12-20 Vini Moraes
+
+        * Translated using Weblate (Portuguese (Brazil)) (e4ffe01)
+
+2025-12-20 Joana R
+
+        * Translated using Weblate (Basque) (3b2ea81)
+
+2025-11-17 Priit Jõerüüt
+
+        * Translated using Weblate (Estonian) (7d82f6b)
+
+2025-11-17 Wenwen Luo
+
+        * Translated using Weblate (Chinese (Simplified) (zh_LATN@pinyin))
+          (967be85)
+
+2025-11-13 Wenwen Luo
+
+        * Translated using Weblate (Chinese (Simplified) (zh_LATN@pinyin))
+          (66bdee9)
+
+2025-11-06 Wenwen Luo
+
+        * Translated using Weblate (Chinese (Simplified) (zh_LATN@pinyin))
+          (b6b4c97)
+
+2025-10-17 Joana R
+
+        * Translated using Weblate (Basque) (e41427b)
+
+2025-09-21 Libre Fox
+
+        * Translated using Weblate (Ukrainian) (37af33a)
+
+2025-09-17 Milo Ivir
+
+        * Translated using Weblate (Croatian) (60fc6f6)
+
+2025-09-03 Milo Ivir
+
+        * Translated using Weblate (Croatian) (359abaf)
+
+2025-09-08 Ratchanan Srirattanamet
+
+        * Merge branch 'personal/sunweaver/cmake-4' into 'main' (119a9e0)
+
+2025-09-07 Mike Gabriel
+
+        * CMakeLists.txt: Bump cmake_minimum_required() to 3.10. Support
+          building with CMake 4 without deprecation warning.
+          (fd93dc5)
+
+2025-08-26 ButterflyOfFire
+
+        * Translated using Weblate (Kabyle) (8aab532)
+
+2025-08-22 Nausi Llon
+
+        * Translated using Weblate (French) (d47984a)
+
+2025-08-26 Mike Gabriel
+
+        * Merge branch 'main_-_mediaviewer' into 'main' (b602146)
+
+2025-08-24 kugiigi
+
+        * Improved image info dialog (d9fe60c)
+        * Put play icon over error icon in grid view (c108750)
+        * Implemented improved media viewer (099abc1)
+
+2025-08-25 Mike Gabriel
+
+        * Merge branch 'main_-_editButtonsFix' into 'main' (daee23f)
+
+2025-08-24 Kugi Eusebio
+
+        * Fix header buttons in photo edit mode (1a9afeb)
+
+2025-08-15 Mike Gabriel
+
+        * Merge branch 'fix/tests' into 'main' (4908e45)
+
+2025-06-09 OPNA2608
+
+        * treewide: Fix imports in tests after QML files were moved out of
+          top-level dir (c283aec)
+
+2025-08-07 Alagirisamy Rengaraj
+
+        * Translated using Weblate (Tamil) (0cb2e8a)
+
 2025-08-11 Mike Gabriel
 
-        * Release 4.1.1 (HEAD -> main, tag: v4.1.1)
+        * Release 4.1.1 (323d924) (tag: v4.1.1)
 
 2025-07-19 Priit Jõerüüt
 

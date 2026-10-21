@@ -1,3 +1,22 @@
+Overview of changes in lomiri-camera-app 4.2.0
+
+  - BarcodeReaderOverlay: Support WiFi QR code scanning.
+  - Drop unused Lomiri.Action HUD actions.
+  - CI: build and publish against multiple clickable base image
+    versions.
+  - tests: Remove autopilot tests.
+  - Fix incorrect GPS position in EXIF.
+  - CMakeLists.txt: Bump cmake_minimum_required() to 3.10. Support
+    building with CMake 4 without deprecation warning.
+  - Improved image info dialog.
+  - Put play icon over error icon in grid view.
+  - Implemented improved media viewer.
+  - Fix header buttons in photo edit mode.
+  - treewide: Fix imports in tests after QML files were moved out of
+    top-level dir.
+  - Translation updates (thanks to all contributors on
+    hosted.weblate.org).
+
 Overview of changes in lomiri-camera-app 4.1.1
 
   - Move resolution icon beside video quality.
