@@ -37,7 +37,8 @@ static void printUsage(const QStringList& arguments)
 }
 
 CameraApplication::CameraApplication(int &argc, char **argv)
-    : QGuiApplication(argc, argv)
+    : QGuiApplication(argc, argv),
+      m_mode(CameraMode::NORMAL)
 {
 
     // The testability driver is only loaded by QApplication but not by QGuiApplication.
