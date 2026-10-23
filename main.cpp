@@ -32,7 +32,6 @@ static QQmlDebuggingEnabler debuggingEnabler(false);
 
 int main(int argc, char** argv)
 {
-    QGuiApplication app(argc, argv);
     QCoreApplication::setApplicationName("camera.ubports");
     // Necessary for Qt.labs.settings to work
     // Ref.: https://bugs.launchpad.net/ubuntu-ui-toolkit/+bug/1354321
