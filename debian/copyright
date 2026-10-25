@@ -1,7 +1,58 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://gitlab.com/ubports/development/apps/lomiri-camera-app
 Upstream-Name: Lomiri Camera App
-Files-Excluded: tests/autopilot debian
+
+Files: .gitignore
+ .gitlab-ci.yml
+ AUTHORS
+ CMakeLists.txt
+ CameraApp/CMakeLists.txt
+ CameraApp/adddatestamp.cpp
+ CameraApp/adddatestamp.h
+ CameraApp/qmldir
+ ChangeLog
+ NEWS
+ README-Developers.md
+ README.md
+ barcode-reader.apparmor
+ camera-contenthub.json
+ camera.apparmor
+ click-build.sh
+ clickable.yaml
+ desktop/CMakeLists.txt
+ desktop/icons/hicolor/128x128/apps/lomiri-barcode-reader-app.png
+ desktop/icons/hicolor/128x128/apps/lomiri-camera-app.png
+ desktop/icons/hicolor/256x256/apps/lomiri-barcode-reader-app.png
+ desktop/icons/hicolor/256x256/apps/lomiri-camera-app.png
+ desktop/icons/hicolor/64x64/apps/lomiri-barcode-reader-app.png
+ desktop/icons/hicolor/64x64/apps/lomiri-camera-app.png
+ lomiri-barcode-reader-app.desktop.in.in
+ lomiri-camera-app-migrate.py
+ lomiri-camera-app.desktop.in.in
+ manifest.json.in
+ po/CMakeLists.txt
+ po/LINGUAS
+ po/POTFILES.in
+ qml/components/AdvancedOptions.qml
+ qml/components/Information.qml
+ screenshot.png
+ tests/CMakeLists.txt
+ tests/unittests/CMakeLists.txt
+Copyright: 2012-2016, Canonical Ltd.
+License: GPL-3
+Comment:
+ No license header found in above listed files. Using license as found in
+ COPYING file.
+ .
+ Assuming same copyright holder as for the
+ other code files.
+ .
+ License situation for above named PNG files is possibly unclear, they
+ might also be subject to the CC-BY-SA-3.0 license (see assets/*).
+ .
+ Canonical Ltd. originally explicitly listed the files under assets/* as
+ CC-BY-SA-3.0 licensed files, and attributed the rest of the code tree
+ as GPL-3 licensed code.
 
 Files: CameraApp/advancedcamerasettings.cpp
  CameraApp/advancedcamerasettings.h
@@ -17,6 +68,18 @@ Files: CameraApp/advancedcamerasettings.cpp
  CameraApp/storagelocations.h
  CameraApp/storagemonitor.cpp
  CameraApp/storagemonitor.h
+ cameraapplication.cpp
+ cameraapplication.h
+ config.h.in
+ main.cpp
+ qml/Viewfinder/BarcodeReaderOverlay.qml
+ qml/Viewfinder/ViewFinderExportConfirmation.qml
+ qml/Viewfinder/ViewFinderGeometry.qml
+ qml/Viewfinder/ViewFinderOverlay.qml
+ qml/Viewfinder/ViewFinderOverlayLoader.qml
+ qml/Viewfinder/ViewFinderView.qml
+ qml/barcode-reader-app.qml
+ qml/camera-app.qml
  qml/components/BottomEdgeIndicators.qml
  qml/components/CircleButton.qml
  qml/components/DeleteDialog.qml
@@ -33,30 +96,15 @@ Files: CameraApp/advancedcamerasettings.cpp
  qml/components/OverlayBlur.qml
  qml/components/PhotoEditorLoader.qml
  qml/components/PhotoRollHint.qml
- qml/components/PhotogridView.qml
  qml/components/PictureReview.qml
  qml/components/ProcessingFeedback.qml
  qml/components/ResponsiveGridView.qml
  qml/components/SharePopover.qml
  qml/components/ShootButton.qml
- qml/components/SlideshowView.qml
  qml/components/StopWatch.qml
  qml/components/ThinSliderStyle.qml
  qml/components/UnableShareDialog.qml
- qml/components/VideoReview.qml
  qml/components/ZoomControl.qml
- qml/Viewfinder/BarcodeReaderOverlay.qml
- qml/Viewfinder/ViewFinderExportConfirmation.qml
- qml/Viewfinder/ViewFinderGeometry.qml
- qml/Viewfinder/ViewFinderOverlay.qml
- qml/Viewfinder/ViewFinderOverlayLoader.qml
- qml/Viewfinder/ViewFinderView.qml
- qml/barcode-reader-app.qml
- qml/camera-app.qml
- cameraapplication.cpp
- cameraapplication.h
- config.h.in
- main.cpp
  tests/unittests/qstorageinfo_stub.cpp
  tests/unittests/storageinfocontrol.cpp
  tests/unittests/storageinfocontrol.h
@@ -87,71 +135,29 @@ License: GPL-3
 Comment:
  Using license as found in COPYING file.
 
-Files: .gitignore
- .gitlab-ci.yml
- AUTHORS
- CMakeLists.txt
- CameraApp/CMakeLists.txt
- CameraApp/adddatestamp.cpp
- CameraApp/adddatestamp.h
- CameraApp/qmldir
- ChangeLog
- NEWS
- README-Developers.md
- README.md
- barcode-reader.apparmor
- camera-contenthub.json
- camera.apparmor
- click-build.sh
- clickable.yaml
- desktop/CMakeLists.txt
- desktop/icons/hicolor/128x128/apps/lomiri-barcode-reader-app.png
- desktop/icons/hicolor/128x128/apps/lomiri-camera-app.png
- desktop/icons/hicolor/256x256/apps/lomiri-barcode-reader-app.png
- desktop/icons/hicolor/256x256/apps/lomiri-camera-app.png
- desktop/icons/hicolor/64x64/apps/lomiri-barcode-reader-app.png
- desktop/icons/hicolor/64x64/apps/lomiri-camera-app.png
- lomiri-barcode-reader-app.desktop.in.in
- lomiri-camera-app.desktop.in.in
- lomiri-camera-app-migrate.py
- manifest.json.in
- po/CMakeLists.txt
- po/LINGUAS
- po/POTFILES.in
- qml/components/AdvancedOptions.qml
- qml/components/Information.qml
- qml/components/MediaInfoPopover.qml
- screenshot.png
- tests/CMakeLists.txt
- tests/unittests/CMakeLists.txt
-Copyright: 2012-2016, Canonical Ltd.
+Files: qml/components/PhotogridView.qml
+ qml/components/SingleMediaViewer.qml
+ qml/components/SlideshowView.qml
+ qml/components/VideoReview.qml
+Copyright: 2014, Canonical Ltd.
+  2014-2015, Canonical Ltd.
+  2015, Canonical Ltd.
+  2025, UBports Foundation
 License: GPL-3
-Comment:
- No license header found in above listed files. Using license as found in
- COPYING file.
- .
- Assuming same copyright holder as for the
- other code files.
- .
- License situation for above named PNG files is possibly unclear, they
- might also be subject to the CC-BY-SA-3.0 license (see assets/*).
- .
- Canonical Ltd. originally explicitly listed the files under assets/* as
- CC-BY-SA-3.0 licensed files, and attributed the rest of the code tree
- as GPL-3 licensed code.
+
+Files: qml/components/MediaInfoDialog.qml
+ qml/components/OverlayPanel.qml
+ qml/components/OverlayTint.qml
+ qml/components/PlayIcon.qml
+Copyright: 2019, UBports Foundation
+  2025, UBports Foundation
+License: GPL-3
 
 Files: qml/Viewfinder/GridLines.qml
  qml/Viewfinder/ShootFeedback.qml
  qml/Viewfinder/TimedShootFeedback.qml
 Copyright: 2019, eran <email>
 License: GPL-3+
-
-Files: qml/components/OverlayPanel.qml
- qml/components/OverlayTint.qml
- qml/components/PlayIcon.qml
-Copyright: 2019, UBports Foundation
-  2025, UBports Foundation
-License: GPL-3
 
 Files: assets/*
 Copyright: 2012-2016, Canonical Ltd.
