@@ -1,3 +1,10 @@
+Overview of changes in lomiri-camera-app 4.2.1
+
+  - Do not create a second QGuiApplication in main(); initialise
+    CameraApplication::m_mode. This fixes app freezing and
+    only showing the splash when launched unter wayland(-egl)
+    QPA platforms.
+
 Overview of changes in lomiri-camera-app 4.2.0
 
   - BarcodeReaderOverlay: Support WiFi QR code scanning.

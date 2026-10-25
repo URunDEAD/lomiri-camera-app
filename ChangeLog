@@ -1,6 +1,26 @@
+2026-10-25 Mike Gabriel
+
+        * Release 4.2.1 (HEAD -> main, tag: v4.2.1)
+        * Merge branch 'personal/jbicha/debian-sync-20261022' into 'main'
+          (6ed5db7)
+
+2026-10-22 Jeremy Bícha
+
+        * debian: Sync with Debian (dfea172)
+
+2026-10-25 Mike Gabriel
+
+        * Merge branch 'personal/cyrilj31/fix-second-qguiapplication' into
+          'main' (e50c40c)
+
+2026-10-24 Cyril Jacquet
+
+        * Do not create a second QGuiApplication in main() (2d7265d)
+        * Initialise CameraApplication::m_mode (95a07e5)
+
 2026-10-21 Mike Gabriel
 
-        * Release 4.2.0 (HEAD -> main, tag: v4.2.0)
+        * Release 4.2.0 (229ee59) (tag: v4.2.0)
 
 2026-10-21 Marius Gripsgard
 
