@@ -82,7 +82,9 @@ bool CameraApplication::isDesktopMode() const
   // in name means it's running on device
   // TODO: replace this check with SDK call for formfactor
   QString platform = QGuiApplication::platformName();
-  return !((platform == "ubuntu") || (platform == "ubuntumirclient"));
+  // Lomiri on Mir serves phone apps over the "wayland" platform.
+  return !((platform == "ubuntu") || (platform == "ubuntumirclient")
+           || (platform == "wayland"));
 #endif
 }
 
